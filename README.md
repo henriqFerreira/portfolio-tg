@@ -130,19 +130,19 @@ Uma parte crucial deste projeto era o sistema de login e registro. Era essencial
 <br>
 <h4 align="center"><br><a href="https://www.youtube.com/watch?v=UtJIXQ2DS-o">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
-  <img src="/readme/2022-2/Cadastro_canais_adm.gif" width="60%" />
+  <img src="/assets/2022-2/Cadastro_canais_adm.gif" width="60%" />
 </p>
 
 <br>
 <h4 align="center"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
-  <img src="/readme/2022-2/Config_canais.gif" width="60%" />
+  <img src="/assets/2022-2/Config_canais.gif" width="60%" />
 </p>
 
 <br>
 <h4 align="center"><br><a href="https://www.youtube.com/watch?v=Ayp1KyIrV_s">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
-  <img src="/readme/2022-2/Config_canais_token.gif" width="60%" />
+  <img src="/assets/2022-2/Config_canais_token.gif" width="60%" />
 </p>
 <br>
 
@@ -165,14 +165,14 @@ No desenvolvimento desse projeto, pude contribuir como membro da equipe de desen
 <h3 align="center">Modelo de dados relacional</h3>
 <h4 align="center">Modelo conceitual<br></h4>
 <p align="center">
-  <img src="/readme/2022-2/Diagramtrackcash.bmp" width="65%" />
+  <img src="/assets/2022-2/Diagramtrackcash.bmp" width="65%" />
 </p>
 <p align="justify">Inicialmente, foram definidas as seguintes entidades para o projeto: <i>defaultChannels</i>, <i>users</i>, <i>registeredChannelLogin</i>, e <i>registeredChannelToken</i>. A entidade <i>defaultChannels</i> inclui detalhes como a chave primária do canal, seu nome, tipo e o método de autenticação utilizado. A entidade <i>users</i> armazena informações dos usuários, como chave primária, nome, e-mail, senha, telefone, documento e o tipo de usuário.</p>
 
 <p align="justify">A entidade <i>registeredChannelLogin</i> é responsável por armazenar dados de canais que utilizam autenticação por usuário e senha. Nesta, o atributo <i>registeredChannelLogin_id</i> serve como chave primária; <i>user_id</i> é uma chave estrangeira vinculada à tabela <i>users</i>; e <i>channel_id</i> é uma chave estrangeira relacionada à tabela <i>defaultChannels</i>. Por último, a entidade <i>registeredChannelToken</i> gerencia informações de canais que operam com autenticação por token, tendo <i>registeredChannelToken_id</i> como chave primária; <i>user_id</i> também como chave estrangeira ligada à tabela <i>users</i>; e <i>channel_id</i> como chave estrangeira associada à tabela <i>defaultChannels</i>.</p><br>
 <h4 align="center">Modelo lógico<br></h4>
 <p align="center">
-  <img src="/readme/2022-2/apiTrackCashERDiagrama.png" width="65%" />
+  <img src="/assets/2022-2/apiTrackCashERDiagrama.png" width="65%" />
 </p>
 <p align="justify">O modelo de dados lógico é caracterizado pelas entidades: <i>defaultChannels</i>, <i>users</i>, <i>registeredChannelLogin</i>, <i>registeredChannelToken</i>. Na entidade <i>defaultChannels</i>, os atributos são: <i>channel_id</i> (chave primária) do tipo inteiro, <i>name</i> do tipo string, <i>type</i> do tipo string; e <i>auth</i> do tipo string. Já na entidade <i>users</i>, os atributos são: <i>user_id</i> (chave primária) do tipo inteiro, <i>name</i> do tipo string, <i>email</i> do tipo string, <i>password</i> do tipo string, <i>phone</i> do tipo inteiro, <i>document</i> do tipo string e <i>type_adm</i> do tipo string. A entidade <i>registeredChannelLogin</i> armazena informações dos canais com autenticação por usuário/senha, onde <i>registeredChannelLogin_id</i> é a chave primária do tipo inteiro; <i>login</i> do tipo string; <i>password</i> do tipo string; <i>user_id</i> é uma chave estrangeira referenciando a tabela <i>users</i>; e <i>channel_id</i> é uma chave estrangeira referenciando a tabela <i>defaultChannels</i>. Por fim, a entidade <i>registeredChannelToken</i> trata da autenticação por token, com <i>registeredChannelToken_id</i> como chave primária do tipo inteiro; <i>token</i> do tipo inteiro; <i>user_id</i> é uma chave estrangeira ligada à tabela <i>users</i>; e <i>channel_id</i> é uma chave estrangeira associada à tabela <i>defaultChannels</i>.</p>
 <p align="justify">As relações entre as entidades são todas do tipo <b>1:N</b>, onde:</p>
@@ -210,7 +210,7 @@ Optamos por utilizar bancos de dados relacionais para garantir a consistência e
 <br>
 <h4 align="center"><br><a href="https://www.youtube.com/watch?v=wU2duyaZ-yg">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
-  <img src="/readme/2023-1/login_dashboard.gif" width="60%" />
+  <img src="/assets/2023-1/login_dashboard.gif" width="60%" />
 </p>
 <br>
 
@@ -235,14 +235,14 @@ Além disso, fui responsável pela modelagem do banco de dados, realizando o lev
 <h3 align="center">Modelo de dados relacional</h3>
 <h4 align="center">Modelo conceitual<br></h4>
 <p align="center">
-  <img src="/readme/2023-1/modeloConceitual_BD.png" width="65%" />
+  <img src="/assets/2023-1/modeloConceitual_BD.png" width="65%" />
 </p>
 <p align="justify">A princípio foram identificadas as seguintes entidades: <i>User</i> e <i>Profile</i>. A entidade <i>User</i> contêm informações sobre os usuários do sistema com os atributos <i>ID</i> chave primária da tabela; <i>fullName</i>; <i>userName</i>; <i>cpf</i> chave única; <i>email</i>; <i>password</i>; <i>active</i>; <i>createDate</i>; <i>lastUpdate</i>. A entidade <i>Profile</i> abriga informações relativas aos perfis dos usuários, diferenciando os tipos de usuários (p.ex. Administrador e Usuários) através do atributo <i>type</i> para atribuir permissões relativas a cada classificação de perfil.Essa entidade é composta pelos atributos <i>ID</i> que é a chave primária; <i>userID</i> chave estrangeira da tabela <i>Users</i>; e <i>type</i>.</p>
 
 <br>
 <h4 align="center">Modelo lógico<br></h4>
 <p align="center">
-  <img src="/readme/2023-1/modeloLogico_BD.png" width="65%" />
+  <img src="/assets/2023-1/modeloLogico_BD.png" width="65%" />
 </p>
 <p align="justify">O modelo de dados lógico é caracterizado pelas entidades: <i>User</i> e <i>Profile</i>. A entidade <i>User</i> contêm os seguintes atributos: <i>ID</i> (chave primária) do tipo inteiro, <i>fullName</i> do tipo baseado em caracteres, <i>userName</i> do tipo baseado em caracteres, <i>cpf</i> do tipo baseado em caracteres, <i>email</i> do tipo baseado em caracteres, <i>password</i> do tipo baseado em caracteres, <i>active</i> do tipo booleano, <i>createdDate</i> do tipo dateTime e <i>lastUpdate</i> do tipo dateTime. A entidade <i>Profile</i> contêm os seguintes atributos: <i>ID</i> (chave primária) do tipo inteiro, <i>userID</i> (chave extrangeira) do tipo baseado em caracteres e <i>type</i> do tipo TinyInt. </p>
 <p align="justify">As relações entre as entidades são todas do tipo <b>1:1</b>, onde:</p>
@@ -269,12 +269,12 @@ No segundo semestre de 2023, embarcamos em uma colaboração com a Greenneat, um
 Neste projeto, desenvolvemos uma plataforma online que possibilita aos parceiros da Greenneat a coleta de óleo de cozinha de estabelecimentos parceiros e a venda desse óleo à Greenneat, recebendo créditos em troca. Esses créditos podem ser utilizados pelos parceiros para adquirir produtos de limpeza fabricados pela Greenneat e disponibilizados em sua plataforma online. Além disso, os parceiros têm acesso a um painel onde podem acompanhar suas transações, enquanto os estabelecimentos podem monitorar suas compras e saldo de créditos. O administrador da plataforma tem acesso a um dashboard contendo informações relevantes, como o desempenho do processo de descarte e a participação dos parceiros e estabelecimentos na economia circular.
 
 <p align="center">
-  <img src="/readme/2023-2/cadastro.gif" width="65%" />
+  <img src="/assets/2023-2/cadastro.gif" width="65%" />
 </p>
   
 <br>
 <p align="center">
-  <img src="/readme/2023-2/login_recuperacaoSenha.gif" width="65%" />
+  <img src="/assets/2023-2/login_recuperacaoSenha.gif" width="65%" />
 </p>
 
 Para mais informações:
@@ -297,13 +297,13 @@ Minha atuação foi marcada pela garantia de uma comunicação clara das necessi
 <h3 align="center">Modelo de dados relacional</h3>
 <h4 align="center">Modelo conceitual<br></h4>
 <p align="center">
-    <img src="/readme/2023-2/modeloConceitualSprint4.png" width="65%"/>
+    <img src="/assets/2023-2/modeloConceitualSprint4.png" width="65%"/>
 </p>
 
 <br>
 <h4 align="center">Modelo lógico<br></h4>
 <p align="center">
-    <img src="/readme/2023-2/modeloLogicoSprint4.png" width="65%"/>
+    <img src="/assets/2023-2/modeloLogicoSprint4.png" width="65%"/>
 </p>
 
 #### Hard Skills
