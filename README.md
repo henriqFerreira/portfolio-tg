@@ -114,11 +114,11 @@ Junto a minha equipe, desenvolvi em python a lógica para realizar a raspagem de
 
 #### Soft Skills
 - Comunicação:
-  - Capacidade de expressar ideias claramente, ouvir ativamente os colegas e fornecer feedback construtivo para garantir uma colaboração eficaz.
+  - Sou capaz de expressar minhas ideias de forma clara e concisa, enquanto também pratico uma escuta ativa para entender as perspectivas dos meus colegas. Ofereço feedback construtivo para promover uma colaboração eficaz e garantir que todos na equipe estejam alinhados com os objetivos do projeto.
 - Trabalho em equipe:
-  - Habilidade de trabalhar bem em conjunto, compartilhando responsabilidades, colaborando na resolução de problemas e contribuindo para um ambiente de trabalho positivo.
+  - Tenho habilidade para trabalhar de forma colaborativa, compartilhando responsabilidades e contribuindo para um ambiente de trabalho positivo. Colaboro ativamente na resolução de problemas, reconhecendo e valorizando as habilidades individuais de cada membro da equipe.
 - Flexibilidade e adaptabilidade:
-  - Capacidade de se ajustar a mudanças rapidamente, aprender novas tecnologias ou técnicas conforme necessário e lidar com desafios imprevistos de forma eficiente.
+  - Demonstro capacidade para me adaptar rapidamente a mudanças, seja no escopo do projeto, nas tecnologias utilizadas ou nos desafios imprevistos que surgem ao longo do caminho. Estou sempre aberto a aprender novas técnicas e tecnologias conforme necessário para garantir o sucesso do projeto.
 
 ### Em 2022-2
 No segundo semestre de 2022, iniciamos uma colaboração com a Trackcash, uma empresa que oferece serviços de conciliação financeira para e-commerces, marketplaces e lojas físicas.
