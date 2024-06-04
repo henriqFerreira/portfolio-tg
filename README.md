@@ -180,12 +180,12 @@ No desenvolvimento desse projeto, pude contribuir como membro da equipe de desen
 <br>
 <h4 align="left">Modelo conceitual<br></h4>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/henriqFerreira/API-FATEC-2-SEM/main/assets/2022-2/Diagramtrackcash.bmp" width="65%" />
+  <img src="/assets/2022-2/Diagramtrackcash.bmp" width="100%" />
 </p>
 
 <h4 align="left">Diagrama ER</h4>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/henriqFerreira/API-FATEC-2-SEM/main/assets/2022-2/apiTrackCashERDiagrama.png" width="65%" />
+  <img src="/assets/2022-2/apiTrackCashERDiagrama.png" width="100%" />
 </p>
 
 #### Hard Skills
