@@ -107,7 +107,7 @@ Para mais informações:
 [Github](https://github.com/henriqFerreira/API-FATEC-1-SEM)
 
 #### Tecnologias Utilizadas
-| Tecnologia | Papel |
+| Tecnologia | Descrição |
 |------------|-------|
 | HTML5      | Estruturar o esqueleto. |
 | CSS3       | Estilizar a aplicação. |
@@ -131,7 +131,7 @@ Junto a minha equipe, desenvolvi em python a lógica para realizar a raspagem de
 [Código - Web Crawler / cursos profissionalizantes](https://github.com/henriqFerreira/API-FATEC-1-SEM/blob/main/web-crawler/cursos/app.py)
 
 #### Hard Skills
-| Tecnologia | Papel |
+| Skill | Descrição |
 |------------|-------|
 | HTML5      | Estruturar páginas complexas, utilizar elementos semânticos e aplicar técnicas avançadas de formatação e layout. |
 | CSS3       | Estilizar páginas web de forma sofisticada, utilizando seletores avançados, animações, efeitos de transição e aplicando técnicas de layout responsivo. |
@@ -206,7 +206,7 @@ Para mais informações:
 [Github](https://github.com/henriqFerreira/API-FATEC-2-SEM)
 
 #### Tecnologias Utilizadas
-| Tecnologia | Papel |
+| Tecnologia | Descrição |
 |------------|-------|
 | Java       | Desenvolver a lógica do aplicativo; |
 | JavaFX     | Desenvolver a interface gráfica do aplicativo de forma interativa e visualmente atraente. |
@@ -220,7 +220,7 @@ Como membro da equipe de desenvolvimento, pude contribuir de diversas maneiras. 
 A segunda contribuição foi na área de lógica do software. Contribui com o desenvolvimento do banco de dados relacional. Utilizei o SQL e o MySQL para criar e modelar o banco de dados para armazenar informações dos clientes e dos canais de vendas. Realizei o levantamento dos requisitos de negocio, identificando as entidades e os atributos, os relacionamentos e a lógica de negócio do software.
 
 #### Hard Skills
-| Tecnologia | Papel |
+| Skill | Descrição |
 |------------|-------|
 | Java       | Desenvolver independentemente a parte do servidor usando essa linguagem, aplicando os princípios da Programação Orientada a Objetos (POO). |
 | JavaFX     | Criar interfaces gráficas de usuário (GUIs) de forma autônoma. |
@@ -366,12 +366,12 @@ Nossa solução foi desenvolver um porjeto com os seguintes requisitos:
 <br>
 <h4 align="left">Modelo conceitual</h4>
 <p align="center">
-  <img src="/assets/2023-2/modeloConceitualSprint4.png" width="65%"/>
+  <img src="/assets/2023-2/modeloConceitualSprint4.png" width="100%"/>
 </p>
 
 <h4 align="left">Modelo lógico</h4>
 <p align="center">
-  <img src="/assets/2023-2/modeloLogicoSprint4.png" width="65%"/>
+  <img src="/assets/2023-2/modeloLogicoSprint4.png" width="100%"/>
 </p>
 
 ---
@@ -393,7 +393,7 @@ Para mais informações:
 Minhas contribuições neste projeto foram focadas somente no front-end e no desenvolvimento das interfaces no Figma. Isso incluiu a criação de protótipos interativos e a definição de estilos para as telas do sistema. Utilizei a ferramenta Figma para criar os protótipos, onde eu mesmo fiz o design visual das telas do sistema. Também contribui com o código front-end, onde eu mesmo foi responsável por implementar a lógica de cada uma das telas do sistema. Essas contribuições ajudaram a criar uma interface mais visualmente atraente e mais interativa para o usuário.
 
 #### Hard Skills
-| Hard Skills | Descrição |
+| Skill | Descrição |
 |-------------|-----------|
 | React | Consigo desenvolver o frontend de forma modularizada e orientada a componentes de maneira independente. |
 | NodeJS | Tenho habilidade para criar o backend utilizando NodeJS de forma autônoma. |
@@ -401,7 +401,6 @@ Minhas contribuições neste projeto foram focadas somente no front-end e no des
 | SQL | Tenho autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade para modelar um banco de dados. |
 
 #### Soft Skills
-
 - Comunicação:
   - Eu desenvolvi minhas habilidades de comunicação colaborando com a equipe de desenvolvimento e transmitindo de forma clara os requisitos do cliente.
 - Organização:
@@ -482,12 +481,12 @@ Para mais informações:
 [GITHUB](https://github.com/JoaoHenrique7/API-FATEC-5-SEM)
 
 #### Tecnologias Utilizadas
-| Tecnologia | Utilizada |
+| Tecnologia | Descrição |
 |------------|-----------|
 | React Native | Parte mobile da aplicação |
-| NodeJS | Backend |
+| NodeJS | Utilizado para desenvolver o backend |
 | MongoDB | Banco de dados não relacional |
-| Github | Salvar e vercionar o código de toda a equipe |
+| Git | Versionamento de código |
 | Figma | Prototipação das telas e designs das apresentações |
 
 #### Contribuições Pessoais
@@ -495,7 +494,7 @@ Fui responsável pelo desenvolvimento dos prototipos no Figma e pela criação, 
 Além disso, contribui no back-end, ajudando na criação das rotas e lógicas de funcionamento das expertises, parceiros e consultores de alianças. Esse papel envolveu a criação de serviços para manipulação dos dados, implementação de validações de dados e lógicas complexas para atender aos requisitos do projeto, garantindo a integração correta das funcionalidades.
    
 #### Hard Skills
-| Hard Skills | Descrição |
+| Skill | Descrição |
 |-------------|-----------|
 | React Native | Possuo autonomia para desenvolver o frontend com React Native. |
 | NodeJS | Tenho autonomia para desenvolver o backend com NodeJS. |
