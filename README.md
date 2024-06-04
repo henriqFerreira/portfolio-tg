@@ -141,61 +141,52 @@ O projeto que assumimos envolvia criar um aplicativo de desktop que permitisse a
 Uma parte crucial deste projeto era o sistema de login e registro. Era essencial que, durante o processo de cadastro, informações específicas fossem coletadas, incluindo o nome do canal de vendas (como Mercado Livre ou Americanas), o tipo de canal (Marketplace ou meio de pagamento) e o método de autenticação usado (usuário/senha ou Token). Dedicamos atenção especial à estruturação e ao desenvolvimento do banco de dados para garantir que todas as especificações da Trackcash fossem meticulosamente atendidas.
 
 <br>
-<h4 align="center"><br><a href="https://www.youtube.com/watch?v=UtJIXQ2DS-o">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
   <img src="/assets/2022-2/Cadastro_canais_adm.gif" width="100%" />
 </p>
+<p align="left"><a href="https://www.youtube.com/watch?v=UtJIXQ2DS-o">Youtube (Qualidade melhor)</a></p>
 
 <br>
-<h4 align="center"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
   <img src="/assets/2022-2/Config_canais.gif" width="100%" />
 </p>
+<p align="left"><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></p>
 
 <br>
-<h4 align="center"><br><a href="https://www.youtube.com/watch?v=Ayp1KyIrV_s">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
   <img src="/assets/2022-2/Config_canais_token.gif" width="100%" />
 </p>
+<p align="left"><a href="https://www.youtube.com/watch?v=Ayp1KyIrV_s">Youtube (Qualidade melhor)</a></p>
 <br>
 
 Para mais informações:
 [Github](https://github.com/henriqFerreira/API-FATEC-2-SEM)
 
 #### Tecnologias Utilizadas
-- Java
-- JavaFX
-- SQL
-- MYSQL
-- Github
-- Figma
+| Tecnologia | Papel |
+|------------|-------|
+| Java       | Desenvolver a lógica do aplicativo; |
+| JavaFX     | Desenvolver a interface gráfica do aplicativo de forma interativa e visualmente atraente. |
+| SQL        | Desenvolver e modelar o banco de dados para armazenar informações dos clientes e dos canais de vendas. |
+| MYSQL      | Utilizar o MySQL como banco de dados relacional para armazenar os dados. |
+| Github     | Utilizar o Github para armazenar o código do projeto e compartilhar com a equipe de desenvolvimento. |
+| Figma      | Utilizar o Figma para criar protótipos interativos e para definir a interface gráfica do aplicativo. |
 
 #### Contribuições Pessoais
+
 No desenvolvimento desse projeto, pude contribuir como membro da equipe de desenvolvimento. A parte em que mais atuei foi no desenvolvimento das interfaces graficas utilizando o SceneBuilder (uma ferramenta gráfica de design e layout fornecida pela Oracle para o desenvolvimento de interfaces de usuário em JavaFX). Também pude participar da modelagem do banco de dados fazendo o levantamento dos requisitos de negocio, indentificando as entidades e os atributos, os relacionamentos entre as entidades, diagrama entidade-relacionamento (DER) e por fim a implementação do banco de dados.
 
 
 <br>
-<h3 align="center">Modelo de dados relacional</h3>
-<h4 align="center">Modelo conceitual<br></h4>
+<h4 align="left">Modelo conceitual<br></h4>
 <p align="center">
-  <img src="/assets/2022-2/Diagramtrackcash.bmp" width="65%" />
+  <img src="https://raw.githubusercontent.com/henriqFerreira/API-FATEC-2-SEM/main/assets/2022-2/Diagramtrackcash.bmp" width="65%" />
 </p>
-<p align="justify">Inicialmente, foram definidas as seguintes entidades para o projeto: <i>defaultChannels</i>, <i>users</i>, <i>registeredChannelLogin</i>, e <i>registeredChannelToken</i>. A entidade <i>defaultChannels</i> inclui detalhes como a chave primária do canal, seu nome, tipo e o método de autenticação utilizado. A entidade <i>users</i> armazena informações dos usuários, como chave primária, nome, e-mail, senha, telefone, documento e o tipo de usuário.</p>
 
-<p align="justify">A entidade <i>registeredChannelLogin</i> é responsável por armazenar dados de canais que utilizam autenticação por usuário e senha. Nesta, o atributo <i>registeredChannelLogin_id</i> serve como chave primária; <i>user_id</i> é uma chave estrangeira vinculada à tabela <i>users</i>; e <i>channel_id</i> é uma chave estrangeira relacionada à tabela <i>defaultChannels</i>. Por último, a entidade <i>registeredChannelToken</i> gerencia informações de canais que operam com autenticação por token, tendo <i>registeredChannelToken_id</i> como chave primária; <i>user_id</i> também como chave estrangeira ligada à tabela <i>users</i>; e <i>channel_id</i> como chave estrangeira associada à tabela <i>defaultChannels</i>.</p><br>
-<h4 align="center">Modelo lógico<br></h4>
+<h4 align="left">Diagrama ER</h4>
 <p align="center">
-  <img src="/assets/2022-2/apiTrackCashERDiagrama.png" width="65%" />
+  <img src="https://raw.githubusercontent.com/henriqFerreira/API-FATEC-2-SEM/main/assets/2022-2/apiTrackCashERDiagrama.png" width="65%" />
 </p>
-<p align="justify">O modelo de dados lógico é caracterizado pelas entidades: <i>defaultChannels</i>, <i>users</i>, <i>registeredChannelLogin</i>, <i>registeredChannelToken</i>. Na entidade <i>defaultChannels</i>, os atributos são: <i>channel_id</i> (chave primária) do tipo inteiro, <i>name</i> do tipo string, <i>type</i> do tipo string; e <i>auth</i> do tipo string. Já na entidade <i>users</i>, os atributos são: <i>user_id</i> (chave primária) do tipo inteiro, <i>name</i> do tipo string, <i>email</i> do tipo string, <i>password</i> do tipo string, <i>phone</i> do tipo inteiro, <i>document</i> do tipo string e <i>type_adm</i> do tipo string. A entidade <i>registeredChannelLogin</i> armazena informações dos canais com autenticação por usuário/senha, onde <i>registeredChannelLogin_id</i> é a chave primária do tipo inteiro; <i>login</i> do tipo string; <i>password</i> do tipo string; <i>user_id</i> é uma chave estrangeira referenciando a tabela <i>users</i>; e <i>channel_id</i> é uma chave estrangeira referenciando a tabela <i>defaultChannels</i>. Por fim, a entidade <i>registeredChannelToken</i> trata da autenticação por token, com <i>registeredChannelToken_id</i> como chave primária do tipo inteiro; <i>token</i> do tipo inteiro; <i>user_id</i> é uma chave estrangeira ligada à tabela <i>users</i>; e <i>channel_id</i> é uma chave estrangeira associada à tabela <i>defaultChannels</i>.</p>
-<p align="justify">As relações entre as entidades são todas do tipo <b>1:N</b>, onde:</p>
-<ul>
-  <li align="justify"><i>defaultChannels</i> se associa a muitas ocorrências da entidade <i>registeredChannelToken</i>, mas <i>registeredChannelToken</i> pode se associar a uma ocorrência da entidade <i>defaultChannels</i></li>
-  <li align="justify"><i>defaultChannels</i> se associa a muitas ocorrências da entidade <i>registeredChannelLogin</i>, mas <i>registeredChannelLogin</i> pode se associar a uma ocorrência da entidade <i>defaultChannels</i></li>
-  <li align="justify"><i>users</i> se associa a muitas ocorrências da entidade <i>registeredChannelToken</i>, mas <i>registeredChannelToken</i> pode se associar a uma ocorrência da entidade <i>users</i></li>
-  <li align="justify"><i>users</i> se associa a muitas ocorrências da entidade <i>registeredChannelLogin</i>, mas <i>registeredChannelLogin</i> pode se associar a uma ocorrência da entidade <i>users</i></li>
-</ul>
-<br>
 
 #### Hard Skills
 - Java: Sou capaz de desenvolver independentemente a parte do servidor usando essa linguagem, aplicando os princípios da Programação Orientada a Objetos (POO).
@@ -334,7 +325,98 @@ Minha atuação foi marcada pela garantia de uma comunicação clara das necessi
   - Lidar com mudanças nos requisitos do cliente e suas ausências frequentes durante o desenvolvimento do projeto exigiu uma dose significativa de resiliência. Permaneci flexível e adaptável, ajustando as prioridades conforme necessário e trabalhando em colaboração com a equipe para superar os desafios que surgiram ao longo do caminho.
 
 ### Em 2024-1
-Mesmo formato
+
+No primeiro semestre de 2024, foi estabelecida uma parceria com a Oracle Academy para desenvolver um aplicativo dedicado ao gerenciamento dos parceiros corporativos.
+
+O principal objetivo deste aplicativo é unificar e automatizar as atividades relacionadas à gestão de parcerias de negócios. As principais funcionalidades do sistema incluem o cadastro e a atualização de parceiros com informações detalhadas sobre sua expertise, bem como o acompanhamento do desenvolvimento de conhecimento dos parceiros para fins de remuneração. Além disso, o sistema oferece a extração de relatórios relevantes sobre o desempenho dos parceiros, facilitando a análise e a tomada de decisões estratégicas.
+
+Para garantir uma gestão eficiente, o aplicativo também conta com um módulo administrativo que permite o cadastro, a edição e a exclusão de consultores de alianças, responsáveis por cadastrar e atualizar as informações sobre os parceiros. Essas funcionalidades visam unificar e automatizar as atividades relacionadas à gestão de parcerias de negócios, ao mesmo tempo em que aprimoram a eficiência operacional da organização.
+
+  <br>
+
+   <h3 align="center">Login como Consultor de Alianças.</h3>
+
+<p align="center">
+    <img src="/readme/2024-1/loginConsultorAliancas.gif" width="15%"/>
+    <br>
+    <a href="https://youtube.com/shorts/GcA-2Alec6g?feature=share">Link para uma melhor resolução</a>
+</p>
+
+  <br>
+
+ <h3 align="center">Adicionar parceiro.</h3>
+
+<p align="center">
+    <img src="/readme/2024-1/adicionarParceiro.gif"/>
+    <br>
+    <a href="https://youtube.com/shorts/wMTgTlr982w?feature=share">Link para uma melhor resolução</a>
+</p>
+
+   <br>
+
+<h3 align="center">Adicionar Track e Expertise do parceiro.</h3>
+
+<p align="center">
+    <img src="/readme/2024-1/adicionarTrackExpertise.gif"/>
+    <br>
+    <a href="https://youtube.com/shorts/E7BV9YUvAck?feature=share">Link para uma melhor resolução</a>
+</p>
+
+   <br>
+Para mais informações:
+[GITHUB](https://github.com/JoaoHenrique7/API-FATEC-5-SEM)
+
+#### Tecnologias Utilizadas
+* React Native - Framework utilizado para fazer a parte mobile da aplicação.
+* NodeJS - Linguagem utilizada para desenvolver o backend.
+* MongoDB - Banco de dados não relacional utilizado.
+* Github - Usado para salvar e vercionar o código de toda equipe.
+* Figma - Usado para prototipação das telas e designs das apresentações.
+
+#### Contribuições Pessoais
+
+No decorrer deste projeto fiz parte da composição da equipe de desenvolvimento, sendo responsável no inicio, na criação de toda a estrutura de backend, sendo a implementação do design pattern escolido, toda estrutura de pastas, rotas, services, logs, tudo que seria consumido pelo Frontend.
+
+Já no decorrer da segunda sprint, fiquei com a responsabilidade de criar todo o cadastro de parceiro, onde o mesmo poderia cadastrar os cursos e qualificações da expertises que o interessava. Todo esse processo, necessitou da integração do framework React com o backend NodeJs junto ao banco não relacional MongoDB.
+ 
+Ao longo da terceira sprint, foi me atribuido junto ao um dos colegas do time a atividade de implementar os gráficos e Dashboards referentes aos dados encontrados dentro da nossa base do MongoDB. Com isso foi necessário o uso de uma lib que até então nao tinha usado para gerar os gráficos, assim como uma pequena refatoração nos tipos das variáveis do backend.
+
+Na conclusão do projeto, na quarta sprint, todos do grupo nos empenhamos em fazer todas as melhorias e correçòes dos erros. Também como uma das atividades finais, Pude contribuir na correçào da busca por filtros, para que fosse mais facil de achar a exprtise desejada, com isso foi necessário tratar o backend para que houvesse a busca corretamente no banco de dados do MongoDB. Além de finalizar a documentaçào geral do projeto no GitHub. 
+<br>
+
+ <h3 align="center">Editar o perfil consultor de alianças.</h3>
+
+ <p align="center">
+    <img src="/readme/2024-1/editarConsultorAliancas.gif"/>
+    <br>
+    <a href="https://youtube.com/shorts/k-mWljAZT0U">Link para uma melhor resolução</a>
+</p>
+
+   <br>
+
+   <h3 align="center">Adicionar consultor de alianças.</h3>
+<p align="center">
+    <img src="/readme/2024-1/adicionarConsultorAliancas.gif"/>
+    <br>
+    <a href="https://youtube.com/shorts/jaJvUHtxoDg">Link para uma melhor resolução</a>
+</p>
+
+   <br>
+   
+#### Hard Skills
+* React Native - Possuo autonomia para desenvolver o frontend utilizando o framework React Native.
+* NodeJS - Tenho autonomia para desenvolver o backend utilizando NodeJS.
+* Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
+* MongoDB - Possuo autonomia para realizar operações de manipulação de dados (CRUD) em sistemas de banco de dados não relacional.
+
+#### Soft Skills
+- **Comunicação:** Utilizei a comunicação para expressar ideias, planos e esclarecer dúvidas com a equipe, visando garantir a eficiência e o progresso das atividades durante a sprint, refinando essas habilidades ao longo do projeto. Também contribuí com a revisão tanto de código quanto de apresentações de slides.
+
+- **Organização:** Ao desenvolver o projeto, aperfeiçoei minhas habilidades de organização ao planejar e priorizar tarefas conforme os requisitos e prazos estabelecidos. Seguindo um cronograma claro e focado, alcancei os objetivos da sprint e contribuí para o sucesso do projeto.
+
+- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+
+- **Resultados:** Me mantive focado em alcançar objetivos específicos do projeto, como a criação do sistema de gerenciamento de usuários com funcionalidades de criação, visualização, edição e remoção. Assim como a correção da busca feita por filtro, garantindo assim a entrega de uma solução completa e funcional.
 
 ### Em 2024-2
 Mesmo formato
