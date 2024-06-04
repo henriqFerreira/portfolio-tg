@@ -45,10 +45,10 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 ### Em 2022-1
 
 <br>
-  <h4 align="center"><br><a href="https://www.youtube.com/watch?v=vAR8DCsnbfE">Youtube (Qualidade melhor)</a></h4>
-  <p align="center">
-    <img src="/assets/2022-1/gif_localizacao_pagweb.gif" width="100%" />
+<p align="center">
+  <img src="/assets/2022-1/gif_localizacao_pagweb.gif" width="100%" />
 </p>
+<p align="center"><br><a href="https://www.youtube.com/watch?v=vAR8DCsnbfE">Youtube (Qualidade melhor)</a></p>
 
 <br>
   <h4 align="center"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
