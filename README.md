@@ -444,35 +444,35 @@ Nossa solução foi desenvolver uma aplicação mobile com os seguintes requisit
 
 <br>
 <p align="center">
-  <img src="/readme/2024-1/adicionarParceiro.gif"/>
+  <img src="/assets/2024-1/adicionarParceiro.gif" width="50%" />
 </p>
 
 ---
 
 <br>
 <p align="center">
-  <img src="/readme/2024-1/loginConsultorAliancas.gif" width="50%" />
+  <img src="/assets/2024-1/loginConsultorAliancas.gif" width="50%" />
 </p>
 
 ---
 
 <br>
 <p align="center">
-  <img src="/readme/2024-1/adicionarTrackExpertise.gif" width="50%" />
+  <img src="/assets/2024-1/adicionarTrackExpertise.gif" width="50%" />
 </p>
 
 ---
 
 <br>
 <p align="center">
-  <img src="/readme/2024-1/editarConsultorAliancas.gif" width="50%" />
+  <img src="/assets/2024-1/editarConsultorAliancas.gif" width="50%" />
 </p>
 
 ---
 
 <br>
 <p align="center">
-  <img src="/readme/2024-1/adicionarConsultorAliancas.gif" width="50%" />
+  <img src="/assets/2024-1/adicionarConsultorAliancas.gif" width="50%" />
 </p>
 
 ---
