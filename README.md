@@ -47,36 +47,36 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 <br>
   <h4 align="center"><br><a href="https://www.youtube.com/watch?v=vAR8DCsnbfE">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/assets/2022-1/gif_localizacao_pagweb.gif" width="60%" />
+    <img src="/assets/2022-1/gif_localizacao_pagweb.gif" width="100%" />
 </p>
 
 <br>
   <h4 align="center"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/assets/2022-1/cursos-botao.gif" width="60%" />
+    <img src="/assets/2022-1/cursos-botao.gif" width="100%" />
 </p>
 
 <br>
   <h4 align="center"><br><a href="https://youtu.be/GsF3vHnyO84">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/assets/2022-1/graficos_parte1.gif" width="60%" />
+    <img src="/assets/2022-1/graficos_parte1.gif" width="100%" />
 </p>
 
 <br>
   <p align="center">
-    <img src="/assets/2022-1/graficos_parte2.gif" width="60%" />
+    <img src="/assets/2022-1/graficos_parte2.gif" width="100%" />
 </p>
 
 <br>
   <h4 align="center"><br><a href="https://youtu.be/iMzZy33cA94">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/assets/2022-1/contatos.gif" width="60%" />
+    <img src="/assets/2022-1/contatos.gif" width="100%" />
 </p>
 <br>
 
   <h4 align="center"><br><a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
-    <img src="/assets/2022-1/raspagem.gif" width="60%" />
+    <img src="/assets/2022-1/raspagem.gif" width="100%" />
 </p>
 <br>
 
@@ -84,17 +84,19 @@ Para mais informações:
 [Github](https://github.com/henriqFerreira/API-FATEC-1-SEM)
 
 #### Tecnologias Utilizadas
-- HTML5: para estruturar o esqueleto.
-- CSS3: para estilizar a aplicação.
-- Javascript: para dar animações e gráficos.
-- Bootstrap: para estilizar junto ao CSS além de trazer botões e ícones prontos.
-- Python: principal ferramenta para a lógica da raspagem de dados.
-- Flask: uma especie de framework com a finalidade de ser o servidor no qual o projeto web foi rodado.
-- SQL: usado para manipulação dos dados.
-- SQLite: banco de dados relacional.
-- AWS: serviço da Amazon.
-- Github: para salvar e vercionar o código de toda equipe.
-- Figma: para prototipação das telas e designs das apresentações.
+| Tecnologia | Papel |
+|------------|-------|
+| HTML5      | Estruturar o esqueleto. |
+| CSS3       | Estilizar a aplicação. |
+| Javascript | Dar animações e gráficos. |
+| Bootstrap  | Estilizar junto ao CSS além de trazer botões e ícones prontos. |
+| Python     | Principal ferramenta para a lógica da raspagem de dados. |
+| Flask      | Uma espécie de framework com a finalidade de ser o servidor no qual o projeto web foi rodado. |
+| SQL        | Usado para manipulação dos dados. |
+| SQLite     | Banco de dados relacional. |
+| AWS        | Serviço da Amazon. |
+| Github     | Para salvar e vercionar o código de toda equipe. |
+| Figma      | Para prototipação das telas e designs das apresentações. |
 
 #### Contribuições Pessoais
 Minhas principais contribuições foram na estilização e montagem das telas da aplicação, e também no código que realizou a raspagem de dados. Pude contribuir com a construção de uma aplicação organizada, bem estilizada e funcional.
@@ -106,11 +108,13 @@ Junto a minha equipe, desenvolvi em python a lógica para realizar a raspagem de
 [Código - Web Crawler / cursos profissionalizantes](https://github.com/henriqFerreira/API-FATEC-1-SEM/blob/main/web-crawler/cursos/app.py)
 
 #### Hard Skills
-- HTML5: Tenho um conhecimento intermediário a quase avançado de HTML5. Consigo criar estruturas de página complexas, utilizar elementos semânticos e aplicar técnicas avançadas de formatação e layout.
-- CSS3: Estou em um nível intermediário a quase avançado de CSS3. Consigo estilizar páginas web de forma sofisticada, utilizando seletores avançados, animações, efeitos de transição e aplicando técnicas de layout responsivo.
-- Javascript: Possuo habilidades intermediárias a quase avançadas em Javascript. Consigo desenvolver scripts complexos, manipular o DOM de forma eficiente, utilizar bibliotecas e frameworks populares e aplicar conceitos avançados de programação assíncrona.
-- Python: Tenho um conhecimento intermediário a quase avançado de Python. Consigo desenvolver aplicações robustas, utilizar bibliotecas para diferentes finalidades (como processamento de dados, desenvolvimento web, automação, entre outros) e aplicar conceitos avançados de programação orientada a objetos e funcional.
-- SQL: Estou em um nível intermediário a quase avançado de SQL. Consigo realizar consultas complexas, criar e gerenciar bancos de dados relacionais, otimizar consultas para melhorar o desempenho e utilizar recursos avançados de modelagem de dados.
+| Tecnologia | Papel |
+|------------|-------|
+| HTML5      | Estruturar páginas complexas, utilizar elementos semânticos e aplicar técnicas avançadas de formatação e layout. |
+| CSS3       | Estilizar páginas web de forma sofisticada, utilizando seletores avançados, animações, efeitos de transição e aplicando técnicas de layout responsivo. |
+| Javascript | Desenvolver scripts complexos, manipular o DOM de forma eficiente, utilizar bibliotecas e frameworks populares e aplicar conceitos avançados de programação assíncrona. |
+| Python     | Desenvolver aplicações robustas, utilizar bibliotecas para diferentes finalidades (como processamento de dados, desenvolvimento web, automação, entre outros) e aplicar conceitos avançados de programação orientada a objetos e funcional. |
+| SQL        | Realizar consultas complexas, criar e gerenciar bancos de dados relacionais, otimizar consultas para melhorar o desempenho e utilizar recursos avançados de modelagem de dados. |
 
 #### Soft Skills
 - Comunicação:
@@ -130,19 +134,19 @@ Uma parte crucial deste projeto era o sistema de login e registro. Era essencial
 <br>
 <h4 align="center"><br><a href="https://www.youtube.com/watch?v=UtJIXQ2DS-o">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
-  <img src="/assets/2022-2/Cadastro_canais_adm.gif" width="60%" />
+  <img src="/assets/2022-2/Cadastro_canais_adm.gif" width="100%" />
 </p>
 
 <br>
 <h4 align="center"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
-  <img src="/assets/2022-2/Config_canais.gif" width="60%" />
+  <img src="/assets/2022-2/Config_canais.gif" width="100%" />
 </p>
 
 <br>
 <h4 align="center"><br><a href="https://www.youtube.com/watch?v=Ayp1KyIrV_s">Youtube (Qualidade melhor)</a></h4>
 <p align="center">
-  <img src="/assets/2022-2/Config_canais_token.gif" width="60%" />
+  <img src="/assets/2022-2/Config_canais_token.gif" width="100%" />
 </p>
 <br>
 
