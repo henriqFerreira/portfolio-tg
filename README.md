@@ -48,7 +48,7 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 <p align="center">
   <img src="/assets/2022-1/gif_localizacao_pagweb.gif" width="100%" />
 </p>
-<p align="left"><br><a href="https://www.youtube.com/watch?v=vAR8DCsnbfE">Youtube (Qualidade melhor)</a></p>
+<p align="left"><a href="https://www.youtube.com/watch?v=vAR8DCsnbfE">Youtube (Qualidade melhor)</a></p>
 
 ---
 
@@ -56,7 +56,7 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 <p align="center">
   <img src="/assets/2022-1/cursos-botao.gif" width="100%" />
 </p>
-<p align="left"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></p>
+<p align="left"><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></p>
 
 ---
 
@@ -67,7 +67,7 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 <p align="center">
   <img src="/assets/2022-1/graficos_parte2.gif" width="100%" />
 </p>
-<p align="left"><br><a href="https://youtu.be/GsF3vHnyO84">Youtube (Qualidade melhor)</a></p>
+<p align="left"><a href="https://youtu.be/GsF3vHnyO84">Youtube (Qualidade melhor)</a></p>
 
 ---
 
@@ -75,7 +75,7 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 <p align="center">
   <img src="/assets/2022-1/contatos.gif" width="100%" />
 </p>
-<p align="left"><br><a href="https://youtu.be/iMzZy33cA94">Youtube (Qualidade melhor)</a></p>
+<p align="left"><a href="https://youtu.be/iMzZy33cA94">Youtube (Qualidade melhor)</a></p>
 
 ---
 
@@ -83,7 +83,7 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 <p align="center">
   <img src="/assets/2022-1/raspagem.gif" width="100%" />
 </p>
-<p align="left"><br><a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a></p>
+<p align="left"><a href="https://youtu.be/vKMSfNvmp7g">Youtube (Qualidade melhor)</a></p>
 
 ---
 
