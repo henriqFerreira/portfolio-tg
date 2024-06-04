@@ -46,15 +46,15 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 O presente projeto objetiva a criação de um website de vagas de empregos ligadas à área da Tecnologia da Informação. O usuário terá acesso às inúmeras oportunidades anunciadas por empresas de todo o Brasil, incluindo a sua descrição completa. Além disso, os interessados encontrarão os mais variados cursos de capacitação profissional. Por fim, será apresentado um panorama estratégico acerca do segmento de T.I.
 
 Nossa solução foi desenvolver uma aplicação com os seguintes requisitos:
-📖 **Requisitos**
+<br>
+
+📖 **Requisitos funcionais**
 - [x] Página Home
 - [x] Página de vagas
 - [x] Página Cursos
 - [x] Página Institucional
 - [x] Página para cada vaga
 - [x] Página Localização
-
-🔖 **Requisitos funcionais**
 - [x] Raspagem das vagas
 - [x] Raspagem dos cursos
 - [X] Implementação do Flask
@@ -153,6 +153,8 @@ Ainda em 2022, no segundo semestre, obtivemos uma colaboração com a empresa Tr
 O objetivo do projeto foi desenvolver um software desktop capaz de autorizar o acesso às informações de vendas dos clientes da Trackcash como API's e planilhas de forma automatizada, com o intuíto de otimizar o processo de reconciliação financeira.
 
 Nossa solução foi criar um sistema com os seguintes requisitos:
+<br>
+
 📖 **Requisitos funcionais**
 - [x] Cadastro de canais (marketplaces e meios de pagamentos)
 - [x] Configuração de canais (usuário/senha e token)
@@ -246,6 +248,8 @@ Em 2023, no terceiro semestre, obtivemos uma colaboração com a empresa Visiona
 O objetivo do projeto foi desenvolver uma aplicação web escalável baseada em microsserviços envolvendo os princípios SOLID e a documentação de todas as etapas de projeto, implementação (git, code review) e distribuição (deploy, CI/CD). Além disso, a persistência dos dados dar-se-á através de um banco de dados relacional com isso sendo possível a transformação de dados em informações.
 
 Nossa solução foi criar um projeto com os seguintes requisitos:
+<br>
+
 📖 **Requisitos funcionais**
 - [x] Acessar o sistema por meio de login
 - [x] Cadastro de novos usuários
@@ -323,155 +327,193 @@ Portanto, como contribuições pessoais, eu fui responsável pela criação dos 
   - Ao meu cargo de responsável pela implementação dos principios do SOLID, proativei a criação de uma estrutura de arquivos modularizada, incentivando os outros membros da equipe a contribuir para a manutenção e evolução do código.
 
 ### Em 2023-2
-No segundo semestre de 2023, embarcamos em uma colaboração com a Greenneat, uma plataforma dedicada à promoção da economia circular, com ênfase na coleta e reciclagem de óleo de cozinha.
+Ainda em 2023, no quarto semestre, embarcamos em uma colaboração com a Greenneat, uma plataforma dedicada à promoção da economia circular, com ênfase na coleta e reciclagem de óleo de cozinha.
 
-Neste projeto, desenvolvemos uma plataforma online que possibilita aos parceiros da Greenneat a coleta de óleo de cozinha de estabelecimentos parceiros e a venda desse óleo à Greenneat, recebendo créditos em troca. Esses créditos podem ser utilizados pelos parceiros para adquirir produtos de limpeza fabricados pela Greenneat e disponibilizados em sua plataforma online. Além disso, os parceiros têm acesso a um painel onde podem acompanhar suas transações, enquanto os estabelecimentos podem monitorar suas compras e saldo de créditos. O administrador da plataforma tem acesso a um dashboard contendo informações relevantes, como o desempenho do processo de descarte e a participação dos parceiros e estabelecimentos na economia circular.
+O objetivo deste projeto foi desenvolver uma plataforma que gerencie os créditos a serem usados como contrapartida no momento da coleta do material pelo parceiro da Greenneat nos estabelecimentos cadastrados. De forma que os créditos poderão ser usados posteriormente para compra dos saneantes na loja virtual da Greenneat.
+
+Nossa solução foi desenvolver um porjeto com os seguintes requisitos:
+<br>
+
+📖 **Requisitos funcionais**
+- [x] Acessar o sistema por meio de login;
+- [x] Cadastro de novos usuários;
+- [x] Funcionalidade "esqueci minha senha".
+- [x] Administrador visualizar as transações;
+- [x] Parceiros e Estabelecimentos efetuar transações de compra e venda;
+- [x] Parceiros e Estabelecimentos possuirem acesso ao seu respectivo saldo de créditos;
+- [x] Parceiros e Estabelecimentos possuirem acesso as suas respectivas transações;
+- [x] Dashboard.
+
+🔖 **Requisitos não funcionais**
+- [x] Documentação apresentada no Github
+- [x] BPMN
+
+<br>
 
 <p align="center">
-  <img src="/assets/2023-2/cadastro.gif" width="65%" />
+  <img src="/assets/2023-2/cadastro.gif" width="100%" />
 </p>
-  
+
+---
+
 <br>
 <p align="center">
-  <img src="/assets/2023-2/login_recuperacaoSenha.gif" width="65%" />
+  <img src="/assets/2023-2/login_recuperacaoSenha.gif" width="100%" />
 </p>
+
+---
+
+<br>
+<h4 align="left">Modelo conceitual</h4>
+<p align="center">
+  <img src="/assets/2023-2/modeloConceitualSprint4.png" width="65%"/>
+</p>
+
+<h4 align="left">Modelo lógico</h4>
+<p align="center">
+  <img src="/assets/2023-2/modeloLogicoSprint4.png" width="65%"/>
+</p>
+
+---
 
 Para mais informações:
 [Github](https://github.com/henriqFerreira/API-FATEC-4-SEM)
 
 #### Tecnologias Utilizadas
-- React
-- NodeJS
-- SQL
-- SQLite
-- Github
-- Figma
+| Tecnologia | Descrição |
+|------------|-----------|
+| React | Framework para desenvolvimento de aplicações web |
+| NodeJS | Runtime JavaScript para construir aplicativos escaláveis |
+| SQL | Linguagem de programação para manipulação de banco de dados relacional |
+| SQLite | Banco de dados relacional |
+| Github | Plataforma de controle de versão e hospedagem de código-fonte |
+| Figma | Ferramenta de design de interfaces de usuário |
 
 #### Contribuições Pessoais
-Durante o andamento deste projeto, desempenhei um papel significativo como membro da equipe de desenvolvimento. Minhas responsabilidades incluíram a modelagem do banco de dados, onde conduzi o levantamento dos requisitos de negócio, identifiquei entidades e atributos, estabeleci relacionamentos entre elas e criei o diagrama entidade-relacionamento (DER). Além disso, participei ativamente no desenvolvimento do wireframe usando a ferramenta Figma e contribuí para o frontend de algumas telas, utilizando React.
-
-Minha atuação foi marcada pela garantia de uma comunicação clara das necessidades do cliente, fornecendo orientações constantes para a equipe de desenvolvimento, alinhando assim os objetivos do projeto. Utilizei ferramentas como o Excel para organizar e priorizar as histórias de usuário, o que ajudou na definição e no acompanhamento do progresso das funcionalidades do sistema.
-
-<br>
-<h3 align="center">Modelo de dados relacional</h3>
-<h4 align="center">Modelo conceitual<br></h4>
-<p align="center">
-    <img src="/assets/2023-2/modeloConceitualSprint4.png" width="65%"/>
-</p>
-
-<br>
-<h4 align="center">Modelo lógico<br></h4>
-<p align="center">
-    <img src="/assets/2023-2/modeloLogicoSprint4.png" width="65%"/>
-</p>
+Minhas contribuições neste projeto foram focadas somente no front-end e no desenvolvimento das interfaces no Figma. Isso incluiu a criação de protótipos interativos e a definição de estilos para as telas do sistema. Utilizei a ferramenta Figma para criar os protótipos, onde eu mesmo fiz o design visual das telas do sistema. Também contribui com o código front-end, onde eu mesmo foi responsável por implementar a lógica de cada uma das telas do sistema. Essas contribuições ajudaram a criar uma interface mais visualmente atraente e mais interativa para o usuário.
 
 #### Hard Skills
-- React: Consigo desenvolver o frontend de forma modularizada e orientada a componentes de maneira independente.
-- NodeJS: Tenho habilidade para criar o backend utilizando NodeJS de forma autônoma.
-- Figma: Possuo habilidade para criar wireframes e protótipos de projetos usando a ferramenta.
-- SQL: Tenho autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade para modelar um banco de dados.
+| Hard Skills | Descrição |
+|-------------|-----------|
+| React | Consigo desenvolver o frontend de forma modularizada e orientada a componentes de maneira independente. |
+| NodeJS | Tenho habilidade para criar o backend utilizando NodeJS de forma autônoma. |
+| Figma | Possuo habilidade para criar wireframes e protótipos de projetos usando a ferramenta. |
+| SQL | Tenho autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade para modelar um banco de dados. |
 
 #### Soft Skills
+
 - Comunicação:
-  - Como Product Owner, desenvolvi minhas habilidades de comunicação ao colaborar com a equipe de desenvolvimento. Durante as reuniões de refinamento de backlog, trabalhei para transmitir de forma clara os requisitos do cliente e esclarecer quaisquer dúvidas que surgiram durante o processo. Além disso, mantive uma comunicação aberta e frequente com os clientes para garantir que suas necessidades fossem compreendidas e atendidas.
+  - Eu desenvolvi minhas habilidades de comunicação colaborando com a equipe de desenvolvimento e transmitindo de forma clara os requisitos do cliente.
 - Organização:
-  - A organização desempenhou um papel fundamental no meu trabalho como Product Owner, pois fui responsável por gerenciar o backlog do produto e priorizar as funcionalidades com base nas necessidades do cliente e nos objetivos do negócio. Mantive o backlog atualizado e organizado, garantindo que a equipe de desenvolvimento sempre soubesse quais eram as próximas tarefas a serem realizadas.
+  - Eu aprendi a organizar e priorizar tarefas para alcançar os objetivos do projeto.
 - Resiliência:
-  - Lidar com mudanças nos requisitos do cliente e suas ausências frequentes durante o desenvolvimento do projeto exigiu uma dose significativa de resiliência. Permaneci flexível e adaptável, ajustando as prioridades conforme necessário e trabalhando em colaboração com a equipe para superar os desafios que surgiram ao longo do caminho.
+  - Eu lidei com mudanças nos requisitos do cliente e minha adaptabilidade para ajustar as prioridades conforme necessário.
+- Proatividade:
+  - Eu sou proativo(a) ao contribuir com a criação dos designs no Figma, contribuição no desenvolvimento do backend e implementação dos principios do SOLID.
+- Autonomia:
+  - Eu sou capaz de desenvolver o frontend de forma modularizada e orientada a componentes de maneira independente, criar wireframes e protótipos de projetos usando a ferramenta, realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e modelar um banco de dados.
+  - Eu sou capaz de criar o backend utilizando NodeJS de forma autônoma.
+  - Eu sou capaz de criar wireframes e protótipos de projetos usando a ferramenta Figma.
+  - Eu sou capaz de realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD).
+  - Eu sou capaz de modelar um banco de dados.
 
 ### Em 2024-1
+Em 2024, no quinto semestre, obtivemos uma parceria com a Oracle.
 
-No primeiro semestre de 2024, foi estabelecida uma parceria com a Oracle Academy para desenvolver um aplicativo dedicado ao gerenciamento dos parceiros corporativos.
+Dessa vez, o projeto visa desenvolver um sistema de gestão de parceiros para a Oracle, centralizando e automatizando as atividades relacionadas. O sistema permitirá cadastrar, editar, excluir e monitorar dados dos parceiros de negócios, melhorando a eficiência operacional e facilitando a consulta e visualização de informações importantes. As principais funcionalidades incluem:
 
-O principal objetivo deste aplicativo é unificar e automatizar as atividades relacionadas à gestão de parcerias de negócios. As principais funcionalidades do sistema incluem o cadastro e a atualização de parceiros com informações detalhadas sobre sua expertise, bem como o acompanhamento do desenvolvimento de conhecimento dos parceiros para fins de remuneração. Além disso, o sistema oferece a extração de relatórios relevantes sobre o desempenho dos parceiros, facilitando a análise e a tomada de decisões estratégicas.
+- Cadastro e atualização de parceiros com detalhes sobre sua expertise.
+- Acompanhamento do desenvolvimento de conhecimento dos parceiros para remuneração.
+- Extração de relatórios sobre desempenho dos parceiros.
+- Administração do sistema, com cadastro, edição e exclusão de administradores, além de um sistema de login com diferentes níveis de acesso.
 
-Para garantir uma gestão eficiente, o aplicativo também conta com um módulo administrativo que permite o cadastro, a edição e a exclusão de consultores de alianças, responsáveis por cadastrar e atualizar as informações sobre os parceiros. Essas funcionalidades visam unificar e automatizar as atividades relacionadas à gestão de parcerias de negócios, ao mesmo tempo em que aprimoram a eficiência operacional da organização.
+Nossa solução foi desenvolver uma aplicação mobile com os seguintes requisitos:
+<br>
 
-  <br>
+📖 **Requisitos funcionais**
+- [x] Desenvolver uma interface de cadastro de parceiros;
+- [x] Desenvolver uma interface de desenvolvimento de parceiros;
+- [ ] Desenvolver um Dashboard de indicadores de desempenho de parceiros;
+- [ ] Desenvolver um Relatório Analítico de parceiros por produto implementado.
 
-   <h3 align="center">Login como Consultor de Alianças.</h3>
 
+🔖 **Requisitos não funcionais**
+- [ ] Manual do Usuário
+- [ ] Documentação técnica da estruturação do sistema
+- [ ] Documentação API – Application Programming Interface
+- [x] Modelagem de Banco de Dados ou Arquivo de dados
+
+<br>
 <p align="center">
-    <img src="/readme/2024-1/loginConsultorAliancas.gif" width="15%"/>
-    <br>
-    <a href="https://youtube.com/shorts/GcA-2Alec6g?feature=share">Link para uma melhor resolução</a>
+  <img src="/readme/2024-1/adicionarParceiro.gif"/>
 </p>
 
-  <br>
+---
 
- <h3 align="center">Adicionar parceiro.</h3>
-
+<br>
 <p align="center">
-    <img src="/readme/2024-1/adicionarParceiro.gif"/>
-    <br>
-    <a href="https://youtube.com/shorts/wMTgTlr982w?feature=share">Link para uma melhor resolução</a>
+  <img src="/readme/2024-1/loginConsultorAliancas.gif" width="50%" />
 </p>
 
-   <br>
+---
 
-<h3 align="center">Adicionar Track e Expertise do parceiro.</h3>
-
+<br>
 <p align="center">
-    <img src="/readme/2024-1/adicionarTrackExpertise.gif"/>
-    <br>
-    <a href="https://youtube.com/shorts/E7BV9YUvAck?feature=share">Link para uma melhor resolução</a>
+  <img src="/readme/2024-1/adicionarTrackExpertise.gif" width="50%" />
 </p>
 
-   <br>
+---
+
+<br>
+<p align="center">
+  <img src="/readme/2024-1/editarConsultorAliancas.gif" width="50%" />
+</p>
+
+---
+
+<br>
+<p align="center">
+  <img src="/readme/2024-1/adicionarConsultorAliancas.gif" width="50%" />
+</p>
+
+---
+
 Para mais informações:
 [GITHUB](https://github.com/JoaoHenrique7/API-FATEC-5-SEM)
 
 #### Tecnologias Utilizadas
-* React Native - Framework utilizado para fazer a parte mobile da aplicação.
-* NodeJS - Linguagem utilizada para desenvolver o backend.
-* MongoDB - Banco de dados não relacional utilizado.
-* Github - Usado para salvar e vercionar o código de toda equipe.
-* Figma - Usado para prototipação das telas e designs das apresentações.
+| Tecnologia | Utilizada |
+|------------|-----------|
+| React Native | Parte mobile da aplicação |
+| NodeJS | Backend |
+| MongoDB | Banco de dados não relacional |
+| Github | Salvar e vercionar o código de toda a equipe |
+| Figma | Prototipação das telas e designs das apresentações |
 
 #### Contribuições Pessoais
-
-No decorrer deste projeto fiz parte da composição da equipe de desenvolvimento, sendo responsável no inicio, na criação de toda a estrutura de backend, sendo a implementação do design pattern escolido, toda estrutura de pastas, rotas, services, logs, tudo que seria consumido pelo Frontend.
-
-Já no decorrer da segunda sprint, fiquei com a responsabilidade de criar todo o cadastro de parceiro, onde o mesmo poderia cadastrar os cursos e qualificações da expertises que o interessava. Todo esse processo, necessitou da integração do framework React com o backend NodeJs junto ao banco não relacional MongoDB.
- 
-Ao longo da terceira sprint, foi me atribuido junto ao um dos colegas do time a atividade de implementar os gráficos e Dashboards referentes aos dados encontrados dentro da nossa base do MongoDB. Com isso foi necessário o uso de uma lib que até então nao tinha usado para gerar os gráficos, assim como uma pequena refatoração nos tipos das variáveis do backend.
-
-Na conclusão do projeto, na quarta sprint, todos do grupo nos empenhamos em fazer todas as melhorias e correçòes dos erros. Também como uma das atividades finais, Pude contribuir na correçào da busca por filtros, para que fosse mais facil de achar a exprtise desejada, com isso foi necessário tratar o backend para que houvesse a busca corretamente no banco de dados do MongoDB. Além de finalizar a documentaçào geral do projeto no GitHub. 
-<br>
-
- <h3 align="center">Editar o perfil consultor de alianças.</h3>
-
- <p align="center">
-    <img src="/readme/2024-1/editarConsultorAliancas.gif"/>
-    <br>
-    <a href="https://youtube.com/shorts/k-mWljAZT0U">Link para uma melhor resolução</a>
-</p>
-
-   <br>
-
-   <h3 align="center">Adicionar consultor de alianças.</h3>
-<p align="center">
-    <img src="/readme/2024-1/adicionarConsultorAliancas.gif"/>
-    <br>
-    <a href="https://youtube.com/shorts/jaJvUHtxoDg">Link para uma melhor resolução</a>
-</p>
-
-   <br>
+Fui responsável pelo desenvolvimento dos prototipos no Figma e pela criação, definição de estrutura de arquivos e do desenvolvimento das telas mobile, usando React Native. Esse papel envolveu a criação de componentes reutilizáveis, definição de estilos, implementação de funcionalidades e lógicas de interação com o usuário.
+Além disso, contribui no back-end, ajudando na criação das rotas e lógicas de funcionamento das expertises, parceiros e consultores de alianças. Esse papel envolveu a criação de serviços para manipulação dos dados, implementação de validações de dados e lógicas complexas para atender aos requisitos do projeto, garantindo a integração correta das funcionalidades.
    
 #### Hard Skills
-* React Native - Possuo autonomia para desenvolver o frontend utilizando o framework React Native.
-* NodeJS - Tenho autonomia para desenvolver o backend utilizando NodeJS.
-* Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
-* MongoDB - Possuo autonomia para realizar operações de manipulação de dados (CRUD) em sistemas de banco de dados não relacional.
+| Hard Skills | Descrição |
+|-------------|-----------|
+| React Native | Possuo autonomia para desenvolver o frontend com React Native. |
+| NodeJS | Tenho autonomia para desenvolver o backend com NodeJS. |
+| Figma | Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta. |
+| MongoDB | Possuo autonomia para realizar operações de manipulação de dados (CRUD) em sistemas de banco de dados não relacional. |
 
 #### Soft Skills
-- **Comunicação:** Utilizei a comunicação para expressar ideias, planos e esclarecer dúvidas com a equipe, visando garantir a eficiência e o progresso das atividades durante a sprint, refinando essas habilidades ao longo do projeto. Também contribuí com a revisão tanto de código quanto de apresentações de slides.
 
-- **Organização:** Ao desenvolver o projeto, aperfeiçoei minhas habilidades de organização ao planejar e priorizar tarefas conforme os requisitos e prazos estabelecidos. Seguindo um cronograma claro e focado, alcancei os objetivos da sprint e contribuí para o sucesso do projeto.
-
-- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
-
-- **Resultados:** Me mantive focado em alcançar objetivos específicos do projeto, como a criação do sistema de gerenciamento de usuários com funcionalidades de criação, visualização, edição e remoção. Assim como a correção da busca feita por filtro, garantindo assim a entrega de uma solução completa e funcional.
+- Comunicação:
+  - Capaz de transmitir de forma clara e efetiva as necessidades do cliente e esclarecer dúvidas durante o desenvolvimento do projeto.
+- Organização:
+  - Aprendi a organizar e gerenciar as tarefas de forma eficaz, priorizando as funcionalidades e assegurando que o projeto seja entregue de acordo com os prazos e requisitos.
+- Colaboração:
+  - Fui capaz de trabalhar em equipe de forma eficaz, participando de reuniões e contribuindo para a criação dos designs, implementação do backend e aplicação dos principios do SOLID.
+- Iniciativa:
+  - Como Scrum Master, demonstrei minha capacidade de liderar a equipe e também contribuí para o desenvolvimento de protótipos de funcionalidades do software.
+- Resiliência:
+  - Durante o desenvolvimento do projeto, enfrentei desafios e obstáculos, como problemas de integração com o banco de dados, mas sempre me mantenho atualizado e busquei soluções alternativas para superá-los.
 
 ### Em 2024-2
-Mesmo formato
+[ ... ]
