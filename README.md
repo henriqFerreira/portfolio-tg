@@ -478,7 +478,7 @@ Nossa solução foi desenvolver uma aplicação mobile com os seguintes requisit
 ---
 
 Para mais informações:
-[GITHUB](https://github.com/JoaoHenrique7/API-FATEC-5-SEM)
+[Github](https://github.com/henriqFerreira/API-FATEC-5-SEM)
 
 #### Tecnologias Utilizadas
 | Tecnologia | Descrição |
