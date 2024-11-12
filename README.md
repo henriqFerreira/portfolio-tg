@@ -10,9 +10,13 @@
 </section>
 
 Sou estudante de Análise e Desenvolvimento de Sistemas, na FATEC Profº Jessen Vidal em São José dos Campos. Tenho 20 anos e já trabalho na área a quase 2 anos.
+
 Durante todo meu período de estudos cheguei a realizar um curso profissionalizante de programação e robótica, realizei técnico em Desenvolvimento de Sistemas quase que simultâneamente ao ensino médio e logo em seguida já iniciei meus estudos em ADS, na faculdade.
+
 Em todo esse ciclo, obtive experiência com diversas situações e problemas onde ao mesmo tempo me proporcionou conhecimento em diversas linguagens, tais como PHP, C#, Javascript e muitas outras.
+
 Participei também de atividades extracurriculares, de onde surgiu uma das minhas maiores conquistas atualmente, a [maratona de programação Interfatecs](https://www.cps.sp.gov.br/alunos-da-fatec-sao-jose-dos-campos-vencem-maratona-interfatecs/), onde conquistei junto a minha equipe, o primeiro lugar na fase final da competição de 2023.
+
 Atualmente, trabalho na área do front-end onde aprimoro meus conhecimentos e desenvolvo aplicações melhores a cada dia que passa, junto a profissionais e amigos incríveis que sempre estão ao meu lado.
 
 ## Contatos
