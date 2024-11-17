@@ -17,7 +17,9 @@ Em todo esse ciclo, obtive experiência com diversas situações e problemas ond
 
 Participei também de atividades extracurriculares, de onde surgiu uma das minhas maiores conquistas atualmente, a [maratona de programação Interfatecs](https://www.cps.sp.gov.br/alunos-da-fatec-sao-jose-dos-campos-vencem-maratona-interfatecs/), onde conquistei junto a minha equipe, o primeiro lugar na fase final da competição de 2023.
 
-Atualmente, trabalho na área do front-end onde aprimoro meus conhecimentos e desenvolvo aplicações melhores a cada dia que passa, junto a profissionais e amigos incríveis que sempre estão ao meu lado.
+Minhas primeira experiência profissional foi na empresa Pro4Tech, onde estagiei e trabalhei como desenvolvedor usando as tecnologias C#, Javascript, HTML e CSS. Após isso, dei sequencia para a empresa SpotSat como desenvolvedor front-end, onde me encontro trabalhando até os dias de hoje, usando as tecnologias HTML, CSS, React, Typescript e Figma.
+
+Atualmente, sigo aprimorando meus conhecimentos e desenvolvendo aplicações melhores a cada dia que passa, junto a profissionais e amigos incríveis que sempre estão ao meu lado.
 
 ## Contatos
 
@@ -43,11 +45,19 @@ Meus ambiciosos próximos passos serão na área de cybersegurança e hacking!
 
 ## Projetos
 
-### Em 2022-1
+### Em 2022-1 | Plataforma de Empregos e Cursos de Tecnologia
 
-O presente projeto objetiva a criação de um website de vagas de empregos ligadas à área da Tecnologia da Informação. O usuário terá acesso às inúmeras oportunidades anunciadas por empresas de todo o Brasil, incluindo a sua descrição completa. Além disso, os interessados encontrarão os mais variados cursos de capacitação profissional. Por fim, será apresentado um panorama estratégico acerca do segmento de T.I.
+No cenário de crescimento constante do mercado de Tecnologia da Informação, profissionais enfrentam dificuldades para encontrar vagas de emprego e cursos de capacitação em um único local. As informações frequentemente estão espalhadas em diferentes plataformas, dificultando o acesso a dados confiáveis e atualizados. Além disso, a falta de visualização das tendências de mercado torna a tarefa de identificar as áreas em alta ainda mais complexa para quem busca qualificação ou recolocação.
 
-Nossa solução foi desenvolver uma aplicação com os seguintes requisitos:
+Com essa problemática em mãos, em parceria com a FATEC e os professores Antonio Egydio São Thiago Graça e Jean Carlos Lourenço Costa, foi desenvolvido um site voltado à centralização de oportunidades de emprego e cursos de capacitação na área de Tecnologia da Informação.
+
+A plataforma foi projetada para reunir vagas de emprego publicadas por empresas de todo o Brasil, apresentando descrições detalhadas de cada oportunidade, como requisitos e benefícios. Além disso, a aplicação possui uma seção dedicada a cursos de qualificação profissional, proporcionando aos usuários acesso rápido a informações sobre capacitação na área.
+
+Para manter o conteúdo atualizado e relevante, a plataforma utiliza técnicas de raspagem de dados, coletando vagas e cursos de diferentes fontes digitais. Como diferencial, o site oferece gráficos interativos que permitem aos usuários visualizar as tendências do mercado de T.I., como áreas mais demandadas, tecnologias em alta e oportunidades de crescimento profissional.
+
+Essa iniciativa teve como objetivo criar um ambiente unificado e acessível para profissionais da área, consolidando informações dispersas e contribuindo para o avanço da qualificação e empregabilidade em T.I.
+
+Nossa solução possui os seguintes requisitos:
 <br>
 
 📖 **Requisitos funcionais**
@@ -72,42 +82,45 @@ Nossa solução foi desenvolver uma aplicação com os seguintes requisitos:
 
 ---
 
-<br>
-<p align="center">
-  <img src="/assets/2022-1/cursos-botao.gif" width="100%" alt="GIF de exemplificação" />
-</p>
+<details>
+  <summary>Outras imagens/gifs</summary>
 
-[Youtube (Qualidade melhor)](https://youtu.be/MpbO26x4V6s)
+  <p align="center">
+    <img src="/assets/2022-1/cursos-botao.gif" width="100%" alt="GIF de exemplificação" />
+  </p>
 
----
+  [Youtube (Qualidade melhor)](https://youtu.be/MpbO26x4V6s)
 
-<br>
-<p align="center">
-  <img src="/assets/2022-1/graficos_parte1.gif" width="100%" alt="GIF de exemplificação" />
-</p>
-<p align="center">
-  <img src="/assets/2022-1/graficos_parte2.gif" width="100%" alt="GIF de exemplificação" />
-</p>
+  ---
 
-[Youtube (Qualidade melhor)](https://youtu.be/GsF3vHnyO84)
+  <br>
+  <p align="center">
+    <img src="/assets/2022-1/graficos_parte1.gif" width="100%" alt="GIF de exemplificação" />
+  </p>
+  <p align="center">
+    <img src="/assets/2022-1/graficos_parte2.gif" width="100%" alt="GIF de exemplificação" />
+  </p>
 
----
+  [Youtube (Qualidade melhor)](https://youtu.be/GsF3vHnyO84)
 
-<br>
-<p align="center">
-  <img src="/assets/2022-1/contatos.gif" width="100%" alt="GIF de exemplificação" />
-</p>
+  ---
 
-[Youtube (Qualidade melhor)](https://youtu.be/iMzZy33cA94)
+  <br>
+  <p align="center">
+    <img src="/assets/2022-1/contatos.gif" width="100%" alt="GIF de exemplificação" />
+  </p>
 
----
+  [Youtube (Qualidade melhor)](https://youtu.be/iMzZy33cA94)
 
-<br>
-<p align="center">
-  <img src="/assets/2022-1/raspagem.gif" width="100%" alt="GIF de exemplificação" />
-</p>
+  ---
 
-[Youtube (Qualidade melhor)](https://youtu.be/vKMSfNvmp7g)
+  <br>
+  <p align="center">
+    <img src="/assets/2022-1/raspagem.gif" width="100%" alt="GIF de exemplificação" />
+  </p>
+
+  [Youtube (Qualidade melhor)](https://youtu.be/vKMSfNvmp7g)
+</details>
 
 ---
 
@@ -142,13 +155,13 @@ Junto a minha equipe, desenvolvi em python a lógica para realizar a raspagem de
 
 #### Hard Skills
 
-| Skill      | Descrição                                                                                                                                                                                                                                   |
-|------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HTML5      | Estruturar páginas complexas, utilizar elementos semânticos e aplicar técnicas avançadas de formatação e layout.                                                                                                                            |
-| CSS3       | Estilizar páginas web de forma sofisticada, utilizando seletores avançados, animações, efeitos de transição e aplicando técnicas de layout responsivo.                                                                                      |
-| Javascript | Desenvolver scripts complexos, manipular o DOM de forma eficiente, utilizar bibliotecas e frameworks populares e aplicar conceitos avançados de programação assíncrona.                                                                     |
-| Python     | Desenvolver aplicações robustas, utilizar bibliotecas para diferentes finalidades (como processamento de dados, desenvolvimento web, automação, entre outros) e aplicar conceitos avançados de programação orientada a objetos e funcional. |
-| SQL        | Realizar consultas complexas, criar e gerenciar bancos de dados relacionais, otimizar consultas para melhorar o desempenho e utilizar recursos avançados de modelagem de dados.                                                             |
+| Skill      | Nível de Conhecimento | Descrição                                                                                                                                                                                                                                   |
+|------------| ----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HTML5      | Avançado              | Estruturar páginas complexas, utilizar elementos semânticos e aplicar técnicas avançadas de formatação e layout.                                                                                                                            |
+| CSS3       | Avançado              | Estilizar páginas web de forma sofisticada, utilizando seletores avançados, animações, efeitos de transição e aplicando técnicas de layout responsivo.                                                                                      |
+| Javascript | Avançado              | Desenvolver scripts complexos, manipular o DOM de forma eficiente, utilizar bibliotecas e frameworks populares e aplicar conceitos avançados de programação assíncrona.                                                                     |
+| Python     | Intermediário         | Desenvolver aplicações robustas, utilizar bibliotecas para diferentes finalidades (como processamento de dados, desenvolvimento web, automação, entre outros) e aplicar conceitos avançados de programação orientada a objetos e funcional. |
+| SQL        | Intermediário         | Realizar consultas complexas, criar e gerenciar bancos de dados relacionais, otimizar consultas para melhorar o desempenho e utilizar recursos avançados de modelagem de dados.                                                             |
 
 #### Soft Skills
 
@@ -159,13 +172,14 @@ Junto a minha equipe, desenvolvi em python a lógica para realizar a raspagem de
 - Flexibilidade e adaptabilidade:
   - Demonstro capacidade para me adaptar rapidamente a mudanças, seja no escopo do projeto, nas tecnologias utilizadas ou nos desafios imprevistos que surgem ao longo do caminho. Estou sempre aberto a aprender novas técnicas e tecnologias conforme necessário para garantir o sucesso do projeto.
 
-### Em 2022-2
+### Em 2022-2 | Software de COnciliação Financeira para E-Commerces
 
+Empresas que operam em e-commerces, marketplaces e lojas físicas enfrentam dificuldades em consolidar informações financeiras provenientes de diferentes canais de venda. A falta de integração e centralização dos dados compromete a análise de vendas, a conciliação de transações e a formulação de estratégias financeiras. Esse cenário é agravado pela variedade de métodos de pagamento e padrões de autenticação que tornam o gerenciamento ainda mais complexo.
 Ainda em 2022, no segundo semestre, obtivemos uma colaboração com a empresa Trackcash, que fornece serviços de conciliação financeira para e-commerces, marketplaces e lojas físicas.
 
-O objetivo do projeto foi desenvolver um software desktop capaz de autorizar o acesso às informações de vendas dos clientes da Trackcash como API's e planilhas de forma automatizada, com o intuíto de otimizar o processo de reconciliação financeira.
+Em parceria com a Trackcash, uma empresa especializada em serviços financeiros e automação para e-commerces, foi desenvolvido um software desktop voltado à conciliação financeira. A aplicação reúne e organiza dados de vendas em dashboards e planilhas interativas, permitindo que os usuários tenham acesso a informações consolidadas e detalhadas.
 
-Nossa solução foi criar um sistema com os seguintes requisitos:
+Nossa solução possui os seguintes requisitos:
 <br>
 
 📖 **Requisitos funcionais**
@@ -189,37 +203,41 @@ Nossa solução foi criar um sistema com os seguintes requisitos:
 
 ---
 
-<br>
-<p align="center">
-  <img src="/assets/2022-2/Config_canais.gif" width="100%" alt="GIF de exemplificação" />
-</p>
+<details>
+  <summary>Outras imagens/gifs</summary>
 
-[Youtube (Qualidade melhor)](https://youtu.be/MpbO26x4V6s)
+  <br>
+  <p align="center">
+    <img src="/assets/2022-2/Config_canais.gif" width="100%" alt="GIF de exemplificação" />
+  </p>
 
----
+  [Youtube (Qualidade melhor)](https://youtu.be/MpbO26x4V6s)
 
-<br>
-<p align="center">
-  <img src="/assets/2022-2/Config_canais_token.gif" width="100%" alt="GIF de exemplificação" />
-</p>
+  ---
 
-[Youtube (Qualidade melhor)](https://www.youtube.com/watch?v=Ayp1KyIrV_s)
+  <br>
+  <p align="center">
+    <img src="/assets/2022-2/Config_canais_token.gif" width="100%" alt="GIF de exemplificação" />
+  </p>
 
----
+  [Youtube (Qualidade melhor)](https://www.youtube.com/watch?v=Ayp1KyIrV_s)
 
-<br>
+  ---
 
-#### Modelo conceitual
+  <br>
 
-<p align="center">
-  <img src="/assets/2022-2/Diagramtrackcash.bmp" width="100%" alt="GIF de exemplificação" />
-</p>
+  #### Modelo Conceitual
 
-#### Modelo lógico
+  <p align="center">
+    <img src="/assets/2022-2/Diagramtrackcash.bmp" width="100%" alt="GIF de exemplificação" />
+  </p>
 
-<p align="center">
-  <img src="/assets/2022-2/apiTrackCashERDiagrama.png" width="100%" alt="GIF de exemplificação" />
-</p>
+  #### Modelo Lógico
+
+  <p align="center">
+    <img src="/assets/2022-2/apiTrackCashERDiagrama.png" width="100%" alt="GIF de exemplificação" />
+  </p>
+</details>
 
 ---
 
@@ -228,14 +246,14 @@ Para mais informações:
 
 #### Tecnologias Utilizadas
 
-| Tecnologia | Descrição |
-|------------|-------|
-| Java       | Desenvolver a lógica do aplicativo; |
-| JavaFX     | Desenvolver a interface gráfica do aplicativo de forma interativa e visualmente atraente. |
+| Tecnologia | Descrição                                                                                              |
+|------------|--------------------------------------------------------------------------------------------------------|
+| Java       | Desenvolver a lógica do aplicativo;                                                                    |
+| JavaFX     | Desenvolver a interface gráfica do aplicativo de forma interativa e visualmente atraente.              |
 | SQL        | Desenvolver e modelar o banco de dados para armazenar informações dos clientes e dos canais de vendas. |
-| MYSQL      | Utilizar o MySQL como banco de dados relacional para armazenar os dados. |
-| Github     | Utilizar o Github para armazenar o código do projeto e compartilhar com a equipe de desenvolvimento. |
-| Figma      | Utilizar o Figma para criar protótipos interativos e para definir a interface gráfica do aplicativo. |
+| MYSQL      | Utilizar o MySQL como banco de dados relacional para armazenar os dados.                               |
+| Github     | Utilizar o Github para armazenar o código do projeto e compartilhar com a equipe de desenvolvimento.   |
+| Figma      | Utilizar o Figma para criar protótipos interativos e para definir a interface gráfica do aplicativo.   |
 
 #### Contribuições Pessoais
 
@@ -244,11 +262,11 @@ A segunda contribuição foi na área de lógica do software. Contribui com o de
 
 #### Hard Skills
 
-| Skill | Descrição |
-|------------|-------|
-| Java       | Desenvolver independentemente a parte do servidor usando essa linguagem, aplicando os princípios da Programação Orientada a Objetos (POO). |
-| JavaFX     | Criar interfaces gráficas de usuário (GUIs) de forma autônoma. |
-| SQL        | Executar operações fundamentais de manipulação de dados em sistemas de bancos de dados (CRUD). |
+| Skill      | Nível de Conhecimento | Descrição                                                                                                                                  |
+|------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Java       | Básico                | Desenvolver independentemente a parte do servidor usando essa linguagem, aplicando os princípios da Programação Orientada a Objetos (POO). |
+| JavaFX     | Básico                | Criar interfaces gráficas de usuário (GUIs) de forma autônoma.                                                                             |
+| SQL        | Intermediário         | Executar operações fundamentais de manipulação de dados em sistemas de bancos de dados (CRUD).                                             |
 
 #### Soft Skills
 
@@ -267,13 +285,13 @@ A segunda contribuição foi na área de lógica do software. Contribui com o de
 - Adaptação:
   - Aceitei mudanças e ajustes ao longo do desenvolvimento do projeto, como a necessidade de alterar a estrutura do banco de dados, e sempre me adaptei para alcançar os objetivos desejados.
 
-### Em 2023-1
+### Em 2023-1 | Sistema de Gerenciamento de Usuários
 
-Em 2023, no terceiro semestre, obtivemos uma colaboração com a empresa Visiona.
+Com o crescimento de uma organização, a administração de perfis de usuários se torna mais complexa e suscetível a inconsistências. A ausência de um sistema centralizado e escalável dificulta a realização de tarefas básicas, como a criação, visualização, edição e exclusão de usuários, impactando a eficiência e a confiabilidade dos processos internos.
 
-O objetivo do projeto foi desenvolver uma aplicação web escalável baseada em microsserviços envolvendo os princípios SOLID e a documentação de todas as etapas de projeto, implementação (git, code review) e distribuição (deploy, CI/CD). Além disso, a persistência dos dados dar-se-á através de um banco de dados relacional com isso sendo possível a transformação de dados em informações.
+Para solucionar esse problema, foi desenvolvido um sistema em parceria com a Visiona Tecnologia Espacial, empresa brasileira de destaque no setor de tecnologia espacial e sistemas de software. A solução utilizou uma aplicação web escalável, modular e com um dashboard intuitivo. O sistema centralizou e simplificou o gerenciamento de perfis, permitindo que a Visiona administrasse seus usuários com maior eficiência e flexibilidade. Documentação de todas as etapas de projeto, implementação (git, code review) e distribuição (deploy, CI/CD). Além disso, a persistência dos dados dar-se-á através de um banco de dados relacional com isso sendo possível a transformação de dados em informações.
 
-Nossa solução foi criar um projeto com os seguintes requisitos:
+Nossa solução possui os seguintes requisitos:
 <br>
 
 📖 **Requisitos funcionais**
@@ -292,21 +310,28 @@ Nossa solução foi criar um projeto com os seguintes requisitos:
 
 <br>
 <p align="center">
-  <img src="/assets/2023-1/login_dashboard.gif" width="100%" />
+  <img src="/assets/2023-1/login_dashboard.gif" width="100%" alt="GIF de exemplificação" />
 </p>
-<p align="left"><a href="https://www.youtube.com/watch?v=wU2duyaZ-yg">Youtube (Qualidade melhor)</a></p>
+
+[Youtube (Qualidade melhor)](https://www.youtube.com/watch?v=wU2duyaZ-yg)
 
 ---
 
-<h4 align="left">Modelo conceitual</h4>
-<p align="center">
-  <img src="/assets/2023-1/modeloConceitual_BD.png" width="100%" />
-</p>
+<details>
+  <summary>Outras imagens/gifs</summary>
 
-<h4 align="left">Modelo lógico</h4>
-<p align="center">
-  <img src="/assets/2023-1/modeloLogico_BD.png" width="100%" />
-</p>
+  #### Modelo Conceitual
+
+  <p align="center">
+    <img src="/assets/2023-1/modeloConceitual_BD.png" width="100%" alt="GIF de exemplificação" />
+  </p>
+
+  #### Modelo Lógico
+
+  <p align="center">
+    <img src="/assets/2023-1/modeloLogico_BD.png" width="100%" alt="GIF de exemplificação" />
+  </p>
+</details>
 
 ---
 
@@ -315,15 +340,15 @@ Para mais informações:
 
 #### Tecnologias Utilizadas
 
-| Tecnologia | Descrição |
-|------------|-----------|
-| React | Framework para desenvolvimento de aplicações web |
-| NodeJS | Runtime JavaScript para construir aplicativos escaláveis |
-| SQL | Linguagem de programação para bancos de dados relacionais |
-| Postgres | Banco de dados relacional de código aberto |
-| Docker | Plataforma de virtualização de aplicativos |
-| Github | Plataforma de controle de versão e hospedagem de código-fonte |
-| Figma | Ferramenta de design de interfaces de usuário |
+| Tecnologia | Descrição                                                     |
+|------------|---------------------------------------------------------------|
+| React      | Framework para desenvolvimento de aplicações web              |
+| NodeJS     | Runtime JavaScript para construir aplicativos escaláveis      |
+| SQL        | Linguagem de programação para bancos de dados relacionais     |
+| Postgres   | Banco de dados relacional de código aberto                    |
+| Docker     | Plataforma de virtualização de aplicativos                    |
+| Github     | Plataforma de controle de versão e hospedagem de código-fonte |
+| Figma      | Ferramenta de design de interfaces de usuário                 |
 
 #### Contribuições Pessoais
 
@@ -333,13 +358,13 @@ Portanto, como contribuições pessoais, eu fui responsável pela criação dos 
 
 #### Hard Skills
 
-| Skill | Descrição |
-|-------|-----------|
-| React | Capaz de desenvolver o frontend de forma modularizada e orientada a componentes com independência. |
-| NodeJS | Possuo habilidade para criar o backend utilizando NodeJS de forma autônoma e eficiente. |
-| Docker | Tenho conhecimentos sobre como trabalhar com Docker e suas principais funcionalidades, permitindo a criação e o gerenciamento de ambientes isolados para o desenvolvimento e a implementação de aplicações. |
-| Figma | Possuo habilidade para criar wireframes e protótipos de projetos usando a ferramenta, facilitando a visualização e o entendimento do design e da estrutura da aplicação. |
-| SQL | Capaz de realizar operações básicas de manipulação de dados em bancos de dados relacionais, permitindo a criação, atualização e exclusão de informações de forma eficiente. Além disso, tenho habilidade para modelar o banco de dados, definindo a estrutura e as relações entre as tabelas. |
+| Skill  | Nível de Conhecimento | Descrição                                                                                                                                                                                                                                                                                     |
+|--------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| React  | Intermediário         | Capaz de desenvolver o frontend de forma modularizada e orientada a componentes com independência.                                                                                                                                                                                            |
+| NodeJS | Intermediário         | Possuo habilidade para criar o backend utilizando NodeJS de forma autônoma e eficiente.                                                                                                                                                                                                       |
+| Docker | Intermediário         | Tenho conhecimentos sobre como trabalhar com Docker e suas principais funcionalidades, permitindo a criação e o gerenciamento de ambientes isolados para o desenvolvimento e a implementação de aplicações.                                                                                   |
+| Figma  | Avançado              | Possuo habilidade para criar wireframes e protótipos de projetos usando a ferramenta, facilitando a visualização e o entendimento do design e da estrutura da aplicação.                                                                                                                      |
+| SQL    | Intermediário         | Capaz de realizar operações básicas de manipulação de dados em bancos de dados relacionais, permitindo a criação, atualização e exclusão de informações de forma eficiente. Além disso, tenho habilidade para modelar o banco de dados, definindo a estrutura e as relações entre as tabelas. |
 
 #### Soft Skills
 
@@ -358,13 +383,13 @@ Portanto, como contribuições pessoais, eu fui responsável pela criação dos 
 - Proatividade:
   - Ao meu cargo de responsável pela implementação dos principios do SOLID, proativei a criação de uma estrutura de arquivos modularizada, incentivando os outros membros da equipe a contribuir para a manutenção e evolução do código.
 
-### Em 2023-2
+### Em 2023-2 | Plataforma de Reciclagem de Óleo de Cozinha
 
-Ainda em 2023, no quarto semestre, embarcamos em uma colaboração com a Greenneat, uma plataforma dedicada à promoção da economia circular, com ênfase na coleta e reciclagem de óleo de cozinha.
+O descarte inadequado de óleo de cozinha usado é um problema ambiental significativo, pois pode contaminar grandes volumes de água e solo, dificultando seu tratamento e prejudicando o ecossistema. Apesar de o óleo ser um recurso reciclável, não existe uma plataforma centralizada que conecte empresas, cooperativas e indivíduos para organizar sua coleta e destinação sustentável.
 
-O objetivo deste projeto foi desenvolver uma plataforma que gerencie os créditos a serem usados como contrapartida no momento da coleta do material pelo parceiro da Greenneat nos estabelecimentos cadastrados. De forma que os créditos poderão ser usados posteriormente para compra dos saneantes na loja virtual da Greenneat.
+Para enfrentar essa problemática, foi desenvolvido um sistema em parceria com a Greenneat, uma empresa focada na economia circular e sustentabilidade ambiental. A plataforma permite que empresas e pessoas físicas registrem o óleo de cozinha disponível para coleta, conectando esses pontos às cooperativas de reciclagem. O óleo coletado é posteriormente transformado em produtos sustentáveis, como saneantes, contribuindo para a redução dos impactos ambientais e promovendo práticas sustentáveis.
 
-Nossa solução foi desenvolver um porjeto com os seguintes requisitos:
+Nossa solução possui os seguintes requisitos:
 <br>
 
 📖 **Requisitos funcionais**
@@ -386,28 +411,35 @@ Nossa solução foi desenvolver um porjeto com os seguintes requisitos:
 <br>
 
 <p align="center">
-  <img src="/assets/2023-2/cadastro.gif" width="100%" />
+  <img src="/assets/2023-2/cadastro.gif" width="100%" alt="GIF de exemplificação" />
 </p>
 
 ---
 
+<details>
+  <summary>Outras imagens/gifs</summary>
+
+  <br>
+  <p align="center">
+    <img src="/assets/2023-2/login_recuperacaoSenha.gif" width="100%" alt="GIF de exemplificação" />
+  </p>
+
+  ---
+
 <br>
-<p align="center">
-  <img src="/assets/2023-2/login_recuperacaoSenha.gif" width="100%" />
-</p>
 
----
+  #### Modelo Conceitual
 
-<br>
-<h4 align="left">Modelo conceitual</h4>
-<p align="center">
-  <img src="/assets/2023-2/modeloConceitualSprint4.png" width="100%"/>
-</p>
+  <p align="center">
+    <img src="/assets/2023-2/modeloConceitualSprint4.png" width="100%" alt="GIF de exemplificação" />
+  </p>
 
-<h4 align="left">Modelo lógico</h4>
-<p align="center">
-  <img src="/assets/2023-2/modeloLogicoSprint4.png" width="100%"/>
-</p>
+  #### Modelo Lógico
+
+  <p align="center">
+    <img src="/assets/2023-2/modeloLogicoSprint4.png" width="100%" alt="GIF de exemplificação" />
+  </p>
+</details>
 
 ---
 
@@ -416,14 +448,14 @@ Para mais informações:
 
 #### Tecnologias Utilizadas
 
-| Tecnologia | Descrição |
-|------------|-----------|
-| React | Framework para desenvolvimento de aplicações web |
-| NodeJS | Runtime JavaScript para construir aplicativos escaláveis |
-| SQL | Linguagem de programação para manipulação de banco de dados relacional |
-| SQLite | Banco de dados relacional |
-| Github | Plataforma de controle de versão e hospedagem de código-fonte |
-| Figma | Ferramenta de design de interfaces de usuário |
+| Tecnologia | Descrição                                                              |
+|------------|------------------------------------------------------------------------|
+| React      | Framework para desenvolvimento de aplicações web                       |
+| NodeJS     | Runtime JavaScript para construir aplicativos escaláveis               |
+| SQL        | Linguagem de programação para manipulação de banco de dados relacional |
+| SQLite     | Banco de dados relacional                                              |
+| Github     | Plataforma de controle de versão e hospedagem de código-fonte          |
+| Figma      | Ferramenta de design de interfaces de usuário                          |
 
 #### Contribuições Pessoais
 
@@ -431,12 +463,12 @@ Minhas contribuições neste projeto foram focadas somente no front-end e no des
 
 #### Hard Skills
 
-| Skill | Descrição |
-|-------------|-----------|
-| React | Consigo desenvolver o frontend de forma modularizada e orientada a componentes de maneira independente. |
-| NodeJS | Tenho habilidade para criar o backend utilizando NodeJS de forma autônoma. |
-| Figma | Possuo habilidade para criar wireframes e protótipos de projetos usando a ferramenta. |
-| SQL | Tenho autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade para modelar um banco de dados. |
+| Skill   | Nível de Conhecimento | Descrição                                                                                                                                                        |
+|---------|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| React   | Intermediário         | Consigo desenvolver o frontend de forma modularizada e orientada a componentes de maneira independente.                                                          |
+| NodeJS  | Intermediário         | Tenho habilidade para criar o backend utilizando NodeJS de forma autônoma.                                                                                       |
+| Figma   | Avançado              |  Possuo habilidade para criar wireframes e protótipos de projetos usando a ferramenta.                                                                           |
+| SQL     | Intermediário         | Tenho autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade para modelar um banco de dados. |
 
 #### Soft Skills
 
@@ -455,18 +487,13 @@ Minhas contribuições neste projeto foram focadas somente no front-end e no des
   - Eu sou capaz de realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD).
   - Eu sou capaz de modelar um banco de dados.
 
-### Em 2024-1
+### Em 2024-1 | Sistema de Gerenciamento de Parceiros
 
-Em 2024, no quinto semestre, obtivemos uma parceria com a Oracle.
+Com uma ampla rede de parceiros corporativos, a Oracle Academy, divisão educacional da Oracle, enfrentava dificuldades em centralizar e acompanhar as informações de suas colaborações. A falta de uma plataforma estruturada dificultava a gestão estratégica dos consultores de alianças, responsáveis por monitorar o progresso e o impacto das parcerias, bem como por atualizar dados sobre os parceiros.
 
-Dessa vez, o projeto visa desenvolver um sistema de gestão de parceiros para a Oracle, centralizando e automatizando as atividades relacionadas. O sistema permitirá cadastrar, editar, excluir e monitorar dados dos parceiros de negócios, melhorando a eficiência operacional e facilitando a consulta e visualização de informações importantes. As principais funcionalidades incluem:
+Para resolver esse desafio, foi desenvolvido um aplicativo dedicado ao gerenciamento de parceiros corporativos. A solução oferece funcionalidades como monitoramento de métricas, atualização de informações e acompanhamento do progresso das colaborações. Além disso, permite que os parceiros visualizem informações relevantes sobre as parcerias de forma prática, promovendo maior eficiência e alinhamento estratégico nas atividades da Oracle Academy.
 
-- Cadastro e atualização de parceiros com detalhes sobre sua expertise.
-- Acompanhamento do desenvolvimento de conhecimento dos parceiros para remuneração.
-- Extração de relatórios sobre desempenho dos parceiros.
-- Administração do sistema, com cadastro, edição e exclusão de administradores, além de um sistema de login com diferentes níveis de acesso.
-
-Nossa solução foi desenvolver uma aplicação mobile com os seguintes requisitos:
+Nossa solução possui os seguintes requisitos:
 <br>
 
 📖 **Requisitos funcionais**
@@ -478,43 +505,47 @@ Nossa solução foi desenvolver uma aplicação mobile com os seguintes requisit
 
 🔖 **Requisitos não funcionais**
 
-- [ ] Manual do Usuário
-- [ ] Documentação técnica da estruturação do sistema
-- [ ] Documentação API – Application Programming Interface
+- [x] Manual do Usuário
+- [x] Documentação técnica da estruturação do sistema
+- [x] Documentação API – Application Programming Interface
 - [x] Modelagem de Banco de Dados ou Arquivo de dados
 
 <br>
 <p align="center">
-  <img src="/assets/2024-1/adicionarParceiro.gif" width="50%" />
+  <img src="/assets/2024-1/adicionarParceiro.gif" width="50%" alt="GIF de exemplificação" />
 </p>
 
 ---
 
-<br>
-<p align="center">
-  <img src="/assets/2024-1/loginConsultorAliancas.gif" width="50%" />
-</p>
+<details>
+  <summary>Outras imagens/gifs</summary>
 
----
+  <br>
+  <p align="center">
+    <img src="/assets/2024-1/loginConsultorAliancas.gif" width="50%" alt="GIF de exemplificação" />
+  </p>
 
-<br>
-<p align="center">
-  <img src="/assets/2024-1/adicionarTrackExpertise.gif" width="50%" />
-</p>
+  ---
 
----
+  <br>
+  <p align="center">
+    <img src="/assets/2024-1/adicionarTrackExpertise.gif" width="50%" alt="GIF de exemplificação" />
+  </p>
 
-<br>
-<p align="center">
-  <img src="/assets/2024-1/editarConsultorAliancas.gif" width="50%" />
-</p>
+  ---
 
----
+  <br>
+  <p align="center">
+    <img src="/assets/2024-1/editarConsultorAliancas.gif" width="50%" alt="GIF de exemplificação" />
+  </p>
 
-<br>
-<p align="center">
-  <img src="/assets/2024-1/adicionarConsultorAliancas.gif" width="50%" />
-</p>
+  ---
+
+  <br>
+  <p align="center">
+    <img src="/assets/2024-1/adicionarConsultorAliancas.gif" width="50%" alt="GIF de exemplificação" />
+  </p>
+</details>
 
 ---
 
@@ -523,13 +554,13 @@ Para mais informações:
 
 #### Tecnologias Utilizadas
 
-| Tecnologia | Descrição |
-|------------|-----------|
-| React Native | Parte mobile da aplicação |
-| NodeJS | Utilizado para desenvolver o backend |
-| MongoDB | Banco de dados não relacional |
-| Git | Versionamento de código |
-| Figma | Prototipação das telas e designs das apresentações |
+| Tecnologia   | Descrição                                          |
+|--------------|----------------------------------------------------|
+| React Native | Parte mobile da aplicação                          |
+| NodeJS       | Utilizado para desenvolver o backend               |
+| MongoDB      | Banco de dados não relacional                      |
+| Git          | Versionamento de código                            |
+| Figma        | Prototipação das telas e designs das apresentações |
 
 #### Contribuições Pessoais
 
@@ -538,12 +569,12 @@ Além disso, contribui no back-end, ajudando na criação das rotas e lógicas d
 
 #### Hard Skills
 
-| Skill | Descrição |
-|-------------|-----------|
-| React Native | Possuo autonomia para desenvolver o frontend com React Native. |
-| NodeJS | Tenho autonomia para desenvolver o backend com NodeJS. |
-| Figma | Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta. |
-| MongoDB | Possuo autonomia para realizar operações de manipulação de dados (CRUD) em sistemas de banco de dados não relacional. |
+| Skill        | Nível de Conhecimento | Descrição                                                                                                             |
+|--------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| React Native | Básico                | Possuo autonomia para desenvolver o frontend com React Native.                                                        |
+| NodeJS       | Intermediário         | Tenho autonomia para desenvolver o backend com NodeJS.                                                                |
+| Figma        | Avançado              | Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.                         |
+| MongoDB      | Básico                | Possuo autonomia para realizar operações de manipulação de dados (CRUD) em sistemas de banco de dados não relacional. |
 
 #### Soft Skills
 
@@ -558,6 +589,22 @@ Além disso, contribui no back-end, ajudando na criação das rotas e lógicas d
 - Resiliência:
   - Durante o desenvolvimento do projeto, enfrentei desafios e obstáculos, como problemas de integração com o banco de dados, mas sempre me mantenho atualizado e busquei soluções alternativas para superá-los.
 
-### Em 2024-2
+### Em 2024-2 | Chatbot de Inteligência Artificial para Marketing
 
-[ ... ]
+O setor de marketing enfrenta desafios para processar grandes volumes de dados provenientes de diversas fontes, como feedbacks de clientes e dados de vendas. Sem ferramentas adequadas para integrar e analisar essas informações, torna-se difícil identificar tendências, personalizar campanhas e tomar decisões estratégicas de maneira rápida e eficiente.
+
+Para atender a essas necessidades, foi desenvolvido um chatbot em parceria com a Dom Rock, empresa especializada em inteligência artificial e análise de dados para negócios. Utilizando a arquitetura RAG (Retrieval-Augmented Generation), o chatbot acessa dados vetorizados para gerar respostas precisas e enriquecidas. A solução permite que profissionais de marketing analisem dados dispersos, identifiquem oportunidades de crescimento e personalizem campanhas com base em informações consistentes, promovendo maior eficácia e agilidade nas estratégias de marketing.
+
+Para mais informações:
+[Github](https://github.com/CamilaRedondo/API-FATEC-6-SEM)
+
+#### Tecnologias Utilizadas
+
+| Tecnologia   | Descrição                                          |
+|--------------|----------------------------------------------------|
+| Python       | Para desenvolvimento do backend da IA              |
+| ChromaDB     | Banco de dados de vetores                          |
+| LangChain    | Framework para construção de IA                    |
+| LLM (Llama)  | Modelo de inteligência artificial                  |
+| Figma        | Prototipação das telas e designs das apresentações |
+| Vue.js       | Framework para desenvolvimento do frontend         |
