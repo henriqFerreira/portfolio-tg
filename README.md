@@ -172,7 +172,7 @@ Junto a minha equipe, desenvolvi em python a lógica para realizar a raspagem de
 - Flexibilidade e adaptabilidade:
   - Demonstro capacidade para me adaptar rapidamente a mudanças, seja no escopo do projeto, nas tecnologias utilizadas ou nos desafios imprevistos que surgem ao longo do caminho. Estou sempre aberto a aprender novas técnicas e tecnologias conforme necessário para garantir o sucesso do projeto.
 
-### Em 2022-2 | Software de COnciliação Financeira para E-Commerces
+### Em 2022-2 | Software de Conciliação Financeira para E-Commerces
 
 Empresas que operam em e-commerces, marketplaces e lojas físicas enfrentam dificuldades em consolidar informações financeiras provenientes de diferentes canais de venda. A falta de integração e centralização dos dados compromete a análise de vendas, a conciliação de transações e a formulação de estratégias financeiras. Esse cenário é agravado pela variedade de métodos de pagamento e padrões de autenticação que tornam o gerenciamento ainda mais complexo.
 Ainda em 2022, no segundo semestre, obtivemos uma colaboração com a empresa Trackcash, que fornece serviços de conciliação financeira para e-commerces, marketplaces e lojas físicas.
@@ -500,8 +500,8 @@ Nossa solução possui os seguintes requisitos:
 
 - [x] Desenvolver uma interface de cadastro de parceiros;
 - [x] Desenvolver uma interface de desenvolvimento de parceiros;
-- [ ] Desenvolver um Dashboard de indicadores de desempenho de parceiros;
-- [ ] Desenvolver um Relatório Analítico de parceiros por produto implementado.
+- [x] Desenvolver um Dashboard de indicadores de desempenho de parceiros;
+- [x] Desenvolver um Relatório Analítico de parceiros por produto implementado.
 
 🔖 **Requisitos não funcionais**
 
