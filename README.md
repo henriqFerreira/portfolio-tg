@@ -166,11 +166,9 @@ Junto a minha equipe, desenvolvi em python a lógica para realizar a raspagem de
 #### Soft Skills
 
 - Comunicação:
-  - Sou capaz de expressar minhas ideias de forma clara e concisa, enquanto também pratico uma escuta ativa para entender as perspectivas dos meus colegas. Ofereço feedback construtivo para promover uma colaboração eficaz e garantir que todos na equipe estejam alinhados com os objetivos do projeto.
+  - Fui capaz de transmitir de forma clara todo o fluxo de implementação da lógica de raspagem de dados e também de informar ao restante do grupo sobre como o design seria e como as informações seriam distribuidas entre as telas e suas funcionalidades
 - Trabalho em equipe:
-  - Tenho habilidade para trabalhar de forma colaborativa, compartilhando responsabilidades e contribuindo para um ambiente de trabalho positivo. Colaboro ativamente na resolução de problemas, reconhecendo e valorizando as habilidades individuais de cada membro da equipe.
-- Flexibilidade e adaptabilidade:
-  - Demonstro capacidade para me adaptar rapidamente a mudanças, seja no escopo do projeto, nas tecnologias utilizadas ou nos desafios imprevistos que surgem ao longo do caminho. Estou sempre aberto a aprender novas técnicas e tecnologias conforme necessário para garantir o sucesso do projeto.
+  - Fui capaz de trabalhar em equipe na melhoria do código de raspagem de dados e na implementação das funcionalidades de busca e filtragem de dados
 
 ### Em 2022-2 | Software de Conciliação Financeira para E-Commerces
 
@@ -257,7 +255,7 @@ Para mais informações:
 
 #### Contribuições Pessoais
 
-Como membro da equipe de desenvolvimento, pude contribuir de diversas maneiras. Usando Java e JavaFX, consegui contribuir com o desenvolvimento das interfaces gráficas do software. Utilizei o SceneBuilder, que é uma ferramenta gráfica de design e layout para o desenvolvimento de interfaces de usuário em JavaFX. Com o SceneBuilder, pude contribuir criando e estilizando as diversas telas do software.
+Como membro da equipe de desenvolvimento, pude contribuir de diversas maneiras. Usando Java e JavaFX, consegui contribuir com o desenvolvimento de todas interfaces gráficas do software. Utilizei o SceneBuilder, que é uma ferramenta gráfica de design e layout para o desenvolvimento de interfaces de usuário em JavaFX. Com o SceneBuilder, pude contribuir criando e estilizando as diversas telas do software.
 A segunda contribuição foi na área de lógica do software. Contribui com o desenvolvimento do banco de dados relacional. Utilizei o SQL e o MySQL para criar e modelar o banco de dados para armazenar informações dos clientes e dos canais de vendas. Realizei o levantamento dos requisitos de negocio, identificando as entidades e os atributos, os relacionamentos e a lógica de negócio do software.
 
 #### Hard Skills
@@ -271,19 +269,13 @@ A segunda contribuição foi na área de lógica do software. Contribui com o de
 #### Soft Skills
 
 - Comunicação:
-  - Desenvolvi minha capacidade de expressar minhas ideias de forma clara e concisa, além de uma escuta ativa para entender as perspectivas dos meus colegas.
-- Organização:
-  - Aprendi a gerenciar o tempo e a priorizar tarefas de forma eficaz, garantindo que o projeto fosse entregue de acordo com os prazos definidos.
+  - Fui capaz de esclarecer como as telas da aplicação seriam usadas e como os dados seriam organizados e separados na aplicação
 - Colaboração:
-  - Ao trabalhar em equipe, aprendi a compartilhar minhas ideias e contribuí para o desenvolvimento de telas do software de forma cooperativa.
-- Iniciativa:
-  - Demonstrei minha capacidade de liderar a equipe e contribuí para o desenvolvimento de protótipos de funcionalidades do software.
+  - Consegui colaborar em equipe sobre como a organização do código seria feita com relação a separação de páginas e na implementação de um design pattern de Singleton para que os dados fossem persistidos entre telas
 - Resiliência:
-  - Durante o desenvolvimento do projeto, enfrentei desafios e obstáculos, como problemas de integração com o banco de dados, mas sempre me mantenho atualizado e busquei soluções alternativas para superá-los.
+  - Durante o desenvolvimento do projeto, enfrentei desafios e obstáculos no desenvolvimento das telas do aplicativo pelo SceneBuilder pois o aplicativo não permitia responsividade, mas consegui superar esse problema e encontrar uma solução para a realização da tarefa
 - Análise e solução de problemas:
-  - Aprendi a identificar e resolver problemas técnicos e de implementação, encontrando soluções eficazes para atingir os objetivos do projeto.
-- Adaptação:
-  - Aceitei mudanças e ajustes ao longo do desenvolvimento do projeto, como a necessidade de alterar a estrutura do banco de dados, e sempre me adaptei para alcançar os objetivos desejados.
+  - Houve a necessidade da implementação de uma lógica para que os dados fossem persistidos entre telas, eu realizei uma análise e encontrei um design pattern de Singleton que solucionava essa nossa necessidade.
 
 ### Em 2023-1 | Sistema de Gerenciamento de Usuários
 
@@ -369,19 +361,11 @@ Portanto, como contribuições pessoais, eu fui responsável pela criação dos 
 #### Soft Skills
 
 - Comunicação:
-  - Capaz de transmitir de forma clara e eficaz as necessidades do cliente e esclarecer dúvidas durante o desenvolvimento do projeto.
+  - Fui capaz de esclarecer como as telas da aplicação seriam usadas e como os dados seriam organizados e separados na aplicação
 - Organização:
-  - Aprendi a organizar e gerenciar as tarefas de forma eficiente, priorizando as funcionalidades e assegurando que o projeto seja entregue de acordo com os prazos e requisitos.
-- Colaboração:
-  - Fui capaz de trabalhar em equipe de forma eficaz, participando de reuniões e contribuindo para a criação dos designs, implementação do backend e aplicação dos principios do SOLID.
-- Iniciativa:
-  - Ao meu cargo de responsável pela implementação dos principios do SOLID, iniciei a estrutura e organização dos arquivos de forma a garantir um código modularizado e facilmente entendível.
-- Adaptação:
-  - Aproveitei a colaboração com os outros membros da equipe para adaptar-me às necessidades do projeto, mudanças nos requisitos e a falta de informações do cliente.
+  - Aprendi a organizar o código em diversos componentes para que a implementação da aplicação ficasse mais fácil. O principal componente que eu trabalhei foi no desenvolvimento de uma tabela totalmente genérica que apresentava qualquer tipo de dados passado a ela
 - Resiliência:
-  - Ao lidar com a falta de informações do cliente e mudanças nos requisitos, aprendi a ser resiliente e ajustar as prioridades conforme necessário.
-- Proatividade:
-  - Ao meu cargo de responsável pela implementação dos principios do SOLID, proativei a criação de uma estrutura de arquivos modularizada, incentivando os outros membros da equipe a contribuir para a manutenção e evolução do código.
+  - Lidei com bastante dificuldades no aprendizado e na melhoria do meu conhecimento de React e Typescript, mas com bastante esforço consegui superar e aprender tudo que era necessário
 
 ### Em 2023-2 | Plataforma de Reciclagem de Óleo de Cozinha
 
@@ -473,19 +457,11 @@ Minhas contribuições neste projeto foram focadas somente no front-end e no des
 #### Soft Skills
 
 - Comunicação:
-  - Eu desenvolvi minhas habilidades de comunicação colaborando com a equipe de desenvolvimento e transmitindo de forma clara os requisitos do cliente.
+  - Fui capaz de esclarecer como as telas da aplicação seriam usadas e como os dados seriam organizados e separados na aplicação
 - Organização:
-  - Eu aprendi a organizar e priorizar tarefas para alcançar os objetivos do projeto.
-- Resiliência:
-  - Eu lidei com mudanças nos requisitos do cliente e minha adaptabilidade para ajustar as prioridades conforme necessário.
-- Proatividade:
-  - Eu sou proativo(a) ao contribuir com a criação dos designs no Figma, contribuição no desenvolvimento do backend e implementação dos principios do SOLID.
-- Autonomia:
-  - Eu sou capaz de desenvolver o frontend de forma modularizada e orientada a componentes de maneira independente, criar wireframes e protótipos de projetos usando a ferramenta, realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e modelar um banco de dados.
-  - Eu sou capaz de criar o backend utilizando NodeJS de forma autônoma.
-  - Eu sou capaz de criar wireframes e protótipos de projetos usando a ferramenta Figma.
-  - Eu sou capaz de realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD).
-  - Eu sou capaz de modelar um banco de dados.
+  - Surgiu a necessidade da reorganização de toda a estrutura do front-end e a melhoria do visual, que foi onde eu trabalhei principalmente minhas habilidades de organização técnica
+- Flexibilidade:
+  - Devido a falta de respostas do cliente, tanto eu quanto o restante do grupo, lidou com muitas mudanças e decisões próprias, que nos forçou a ter bastante flexibilidade
 
 ### Em 2024-1 | Sistema de Gerenciamento de Parceiros
 
@@ -564,7 +540,7 @@ Para mais informações:
 
 #### Contribuições Pessoais
 
-Fui responsável pelo desenvolvimento dos prototipos no Figma e pela criação, definição de estrutura de arquivos e do desenvolvimento das telas mobile, usando React Native. Esse papel envolveu a criação de componentes reutilizáveis, definição de estilos, implementação de funcionalidades e lógicas de interação com o usuário.
+Estive atuando como Scrum Master e gerenciando a equipe e as tarefas a serem feitas, também fui responsável pelo desenvolvimento dos prototipos no Figma e pela criação, definição de estrutura de arquivos e do desenvolvimento das telas mobile, usando React Native. Esse papel envolveu a criação de componentes reutilizáveis, definição de estilos, implementação de funcionalidades e lógicas de interação com o usuário.
 Além disso, contribui no back-end, ajudando na criação das rotas e lógicas de funcionamento das expertises, parceiros e consultores de alianças. Esse papel envolveu a criação de serviços para manipulação dos dados, implementação de validações de dados e lógicas complexas para atender aos requisitos do projeto, garantindo a integração correta das funcionalidades.
 
 #### Hard Skills
@@ -579,15 +555,11 @@ Além disso, contribui no back-end, ajudando na criação das rotas e lógicas d
 #### Soft Skills
 
 - Comunicação:
-  - Capaz de transmitir de forma clara e efetiva as necessidades do cliente e esclarecer dúvidas durante o desenvolvimento do projeto.
+  - Fui capaz de esclarecer como as telas da aplicação seriam usadas e como os dados seriam organizados e separados na aplicação
 - Organização:
-  - Aprendi a organizar e gerenciar as tarefas de forma eficaz, priorizando as funcionalidades e assegurando que o projeto seja entregue de acordo com os prazos e requisitos.
-- Colaboração:
-  - Fui capaz de trabalhar em equipe de forma eficaz, participando de reuniões e contribuindo para a criação dos designs, implementação do backend e aplicação dos principios do SOLID.
+  - Como Scrum Master, estive sempre organizando todas as tarefas a serem feitas por sprints e junto a equipe, delegando o que cada um iria fazer
 - Iniciativa:
   - Como Scrum Master, demonstrei minha capacidade de liderar a equipe e também contribuí para o desenvolvimento de protótipos de funcionalidades do software.
-- Resiliência:
-  - Durante o desenvolvimento do projeto, enfrentei desafios e obstáculos, como problemas de integração com o banco de dados, mas sempre me mantenho atualizado e busquei soluções alternativas para superá-los.
 
 ### Em 2024-2 | Chatbot de Inteligência Artificial para Marketing
 
@@ -608,3 +580,28 @@ Para mais informações:
 | LLM (Llama)  | Modelo de inteligência artificial                  |
 | Figma        | Prototipação das telas e designs das apresentações |
 | Vue.js       | Framework para desenvolvimento do frontend         |
+
+#### Contribuições Pessoais
+
+Atuei como desenvolvedor neste projeto, sendo responsável pelo desenvolvimento do design completo do front-end e como as informações seriam visualizadas e organizadas na tela.
+Estive trabalhando também na melhoria do processamento dos dados que a IA irá receber do usuário e também na melhoria dos dados que estão vetorizados no banco, por meio de técnicas de chunking e PLN, remoção de stopwords, e até a própria implementação de um histórico da conversa pra que a IA sempre tenha o contexto do que está sendo falado ou do que foi falado anteriormente.
+
+#### Hard Skills
+
+| Skill        | Nível de Conhecimento | Descrição                                                                                                        |
+|--------------|-----------------------|------------------------------------------------------------------------------------------------------------------|
+| Python       | Intermediário         | Tenho autonomia para desenvolver o soluções com IA, PLN e técnicas para processamento e melhoria de dados.       |
+| ChromaDB     | Básico                | Tenho autonomia para gerenciar e armazenar dados em um banco de vetores.                                         |
+| LangChain    | Básico                | Tenho autonomia para construir e executar modelos de inteligência artificial.                                    |
+| LLM (Llama)  | Básico                | Tenho autonomia para utilizar um modelo de inteligência artificial para gerar respostas precisas e enriquecidas. |
+| Figma        | Avançado              | Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.                    |
+| Vue.js       | Básico                | Possuo autonomia para desenvolver o frontend com Vue.js.                                                         |
+
+#### Soft Skills
+
+- Comunicação:
+  - Como desenvolvedor, minha comunicação foi essencial para eu poder passar as informações do design e para que eu requisitasse ajuda conforme fui precisando durante o desenvolvimento das melhorias do processamento da IA, e também para explicar e ajudar os outros com aspectos de front-end e do próprio código na qual eu desenvolvia.
+- Organização:
+  - Organizei as tarefas de forma eficaz e com gerenciamento de horário gasto por meio da plataforma do Jira, tornando assim o processo de desenvolvimento mais eficiente e mais claro a todos os membros da equipe.
+- Resiliência:
+  - Como desenvolvedor, ao aprender esses novos conceitos, enfrentei diversas dificuldades e obstáculos durante a melhoria de estratégias de PLN, chunking e tokenização, mas consegui superar-os e encontrar soluções para a realização das tarefas.
